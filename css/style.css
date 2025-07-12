@@ -294,27 +294,6 @@ footer-li {
   text-decoration: none;  
   margin: 35%;
 }
-.social-icons {
-  margin-top: 1px;
-}
-.social-icons a li {
-  margin: 0 18px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #ffd26a;
-}
-.social-icons a:hover { 
-  color: #d4a373;
-}
-.social-icons:item {
-  width: 20;
-  height: 20;
-}
-.submit-btn {
-  font-size: 12px;
-  margin-top: -10px;
-  color: #727982;
-  }
 /* about us section */
 body{
  font-family: Arial, sans-serif;     background-color: #f4f4f4; 
@@ -507,18 +486,6 @@ color: white;
 padding: 20px;
 text-align: center;
 }
-.social-icons {
-margin-top: 10px;
-}
-.social-icons a {
-color: white;
-margin: 0 10px;
-text-decoration: none;
-font-size: 24px;
-}
-.social-icons a:hover {
-color: #d4a373;
-}
 /* contact us section */
 * {
 margin: 0;
@@ -602,15 +569,24 @@ color: white;
 padding: 20px;
 text-align: center;
 }
-social-icons{
-margin-top: 10px;
+.social-icons {
+  margin-top: 1px;
 }
-.social-icons a {
-color: white;
-margin: 0 10px;
-text-decoration: none;
-font-size: 24px;
+.social-icons a li {
+  margin: 0 18px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffd26a;
 }
-.social-icons a:hover {
-color: #d4a373;
+.social-icons a:hover { 
+  color: #d4a373;
+}
+.social-icons:item {
+  width: 20;
+  height: 20;
+}
+.submit-btn {
+  font-size: 12px;
+  margin-top: -10px;
+  color: #727982;
 }
