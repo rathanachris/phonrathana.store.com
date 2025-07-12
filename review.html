@@ -1,0 +1,126 @@
+<?php
+session start();
+error_reporting(0);
+include('includes/dbconnection.php');?>
+<!DOCTYPE html>
+<html lang="en-km">
+  <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet.css">
+ <link rel="stylesheet" href="https://www.wepage.com">
+<title>webpage.com|review.html</title>
+<link rel="icon" href="img/chrisrathana.2.jpg">
+<!-- font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- custom css file link -->
+<link rel="stylesheet" href="css/style.css">
+<body>
+<head>
+<!--header section start -->    
+<header>
+      
+<!-- input -->  
+       <input type="checkbox" name="" id="toggler">
+<label for="toggler" class="fas fa-bars"></label> 
+   
+     <a href="#" class="logo"><span>Flowers</span></a> 
+
+    <ul>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="products.html">products</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">contact</a>
+     </nav>
+     </ul>
+     
+  <div class="icons">
+    <a href="#" class="fas fa-shopping-cart"></a>
+    <a href="#" class="fas fa-user"></a>
+  </div>
+  
+  </header>
+<!-- header section ends -->
+<!-- review section -->
+<section class="reviews-section">
+
+<h1>Customer Reviews</h1>
+<div class="reviews-list">
+
+<!-- Sample Review -->
+
+<div class="review">
+
+<h3>Flowers</h3>
+
+<p>Love my new flowers! The craftsmanship is amazing and it fits perfectly!</p>
+
+<span>★★★★★</span>
+</div>
+<!-- Sample Review -->
+
+<div class="review">
+
+<h3>Flowers</h3>
+
+<p>Do you love my new roses! They are so beautifully decorated?</p>
+
+<span>★★★★★</span>
+</div>
+<!-- Sample Review -->
+
+<div class="review">
+
+<h3>Flowers</h3>
+
+<p>Do you love my new roses! They are so beautifully decorated?</p>
+
+<span>★★★★★</span>
+ </div>
+</div>
+
+<!-- Review Submission Form -->
+<h2>Leave a Review</h2>
+
+<div class="review-form">
+
+<form action="submit review" method="post">
+
+<input type="text" name="name" placeholder="Your Name"
+
+required >
+
+<input type="email" name="email" placeholder="Your Email"
+
+required >
+
+<textarea name="review" placeholder="Your Review" rows="5"
+
+required ></textarea>
+
+<button type="submit">Submit Review</button>
+
+</form>
+</div>
+
+</section>
+<footer>
+
+<p>® 2025 Website & copyright.&team! </p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-tiktok"></i></a>
+</div>
+</footer>
+
+</body>
+
+</html>
+  
