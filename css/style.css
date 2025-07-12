@@ -426,3 +426,96 @@ font-size: 24px;
 .social-icons a:hover {
 color: #d4a373;
 }
+/* Review section */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #2f4f4f4;
+color: #333;
+line-height: 1.6;
+}
+.header{
+background-color: #333;
+color: white;
+padding: 10px 0;
+}
+.reviews-section {
+padding: 50px 20px;
+text-align: center;
+background-color: #2fff;
+border-radius: 10px;
+margin: 20px;
+}
+.reviews-section h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+.reviews-list {
+max-width: 800px;
+margin: 0 auto;
+text-align: left;
+margin-bottom: 30px;
+}
+.review {
+border: 1px solid #ddd;
+padding: 15px;
+margin: 10px 0;
+border-radius: 5px;
+background-color: #2f9f9f9;
+}
+.review h3 {
+margin-bottom: 10px;
+}
+.review p {
+margin-bottom: 5px;
+}
+.review span {
+font-size: 14px;
+color: #666;
+}
+.review from{
+max-width: 600px;
+margin: 0 auto;
+text-align: left;
+}
+.review-form input,
+.review-form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.review-form button {
+padding: 10px 20px;
+background-color: #d4a373;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.review-form button:hover {
+background-color: #2b08968;
+}
+footer {
+background-color: #3333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.social-icons {
+margin-top: 10px;
+}
+.social-icons a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-size: 24px;
+}
+.social-icons a:hover {
+color: #d4a373;
+}
