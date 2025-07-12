@@ -519,3 +519,98 @@ font-size: 24px;
 .social-icons a:hover {
 color: #d4a373;
 }
+/* contact us section */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6;
+}
+.contact{
+display: flex;
+align-items: center;
+min-height: 30vh;
+background:url(../img/flowers-roses.png) no-repeat;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.contact.row content{
+  max-width: 50rem;  
+}
+.contact.row content span{
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.contact.row.content p{
+  font-size: 2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  color: #999;
+  text-transform: none;
+}
+.header{
+background-color: #333;
+color: white;
+padding: 10px 0;
+}
+.contact-section {
+padding: 50px 20px;
+text-align: center;
+background-color: #fff; border-radius: 10px;
+margin: 20px;
+}
+.contact-section h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+.contact-section p {
+font-size: 18px;
+margin-bottom: 30px;
+}
+.contact-form{
+max-width: 600px; margin: 0 auto; text-align: left;
+}
+.contact-form input,
+.contact-form textarea{
+width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+}
+.contact-form button {
+padding: 10px 20px;
+background-color: #d4a373;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.contact-form button:hover {
+background-color: #608968;
+}
+.map{
+margin: 20px 0;
+border: 0;
+width: 100%;
+height: 400px;
+}
+footer {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+social-icons{
+margin-top: 10px;
+}
+.social-icons a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-size: 24px;
+}
+.social-icons a:hover {
+color: #d4a373;
+}
