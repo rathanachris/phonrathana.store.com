@@ -315,3 +315,114 @@ footer-li {
   margin-top: -10px;
   color: #727982;
   }
+/* about us section */
+body{
+ font-family: Arial, sans-serif;     background-color: #f4f4f4; 
+color: #333; line-height: 1.6;
+ min-height: 50vh;
+ background:url(../img/png) no-repeat;/*Add your background
+image path*/
+ background-size: cover; /* Makes the image cover the whole background-position: center;  Center the image */
+ background-repeat: no-repeat; /* Prevent the image from background repeating */
+}
+/* header logo img */
+.header{
+ background-color: #333;
+ color: white;
+ padding: 10px 0;
+}
+.about .row{
+ display: flex;
+ align-items: center;
+ gap:2rem;
+ flex-wrap: wrap;
+ padding:2rem 0;
+ padding-bottom: 3rem;
+}
+.about .row.video-container{
+flex:1 1 40rem;
+position: relative;
+}
+.about .row.video-container video{
+width:100%;
+border:1.5rem solid #fff;
+border-radius: .5rem;
+box-shadow: 0.5rem 1rem Irgba(0,0,0,.1);
+}
+.about.row.video-container h3{
+position: absolute;
+top:50%;top:50%; transform: translateY(-50%);
+font-size: 3rem;
+background:#fff;
+width:100%;
+padding:1rem 2rm;
+}
+.about.row content{
+flex:1 1 40rem;
+}
+.about.row.content h3{
+font-size: 3rem;
+color: #333;
+}
+.about.row content p{
+font-size: 1.5rem;
+color: #9999;
+}
+.cta-button {
+padding: 10px 10px;
+background-color: #15192a;
+color: black;
+}
+.cta-button:hover {
+background-color: #131726;
+}
+/* icons-grid container.icons */
+.icons-container .icons-grid{
+background:#eee;
+display: flex;
+flex-wrap: wrap;
+gap:1.5rem;
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.icons-container .icons{
+ background:#fff;
+ border:.1rem solid Irgba(0,0,0,.5);
+ padding:2rem;
+ display: flex;
+ align-items: center;
+ flex:1 1 25rem;
+ }
+.icons-container .icons img{
+ height:5rem;
+ margin-right: 2rem;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.11);
+}
+.icons-container .icons h3{
+ color: #333;
+ padding-bottom: .5rem;
+ font-size: 1.5rem;
+}
+.icons-container.icons span {
+ color: #555;
+ padding-bottom: .5rem; 
+ font-size: 1.5rem;
+}
+footer {
+ background-color: #161a2c;
+ color: black;
+ padding: 20px;
+ text-align: center;
+}
+.social-icons {
+margin-top: 10px;
+}
+.social-icons a {
+color: White;
+margin: 0 10px;
+text-decoration: none;
+font-size: 24px;
+}
+.social-icons a:hover {
+color: #d4a373;
+}
