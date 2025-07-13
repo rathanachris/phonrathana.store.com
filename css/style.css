@@ -405,6 +405,15 @@ font-size: 24px;
 .social-icons a:hover {
 color: #d4a373;
 }
+
+
+
+
+
+
+
+
+
 /* Review section */
 * {
 margin: 0;
@@ -479,12 +488,6 @@ cursor: pointer;
 }
 .review-form button:hover {
 background-color: #2b08968;
-}
-footer {
-background-color: #3333;
-color: white;
-padding: 20px;
-text-align: center;
 }
 /* contact us section */
 * {
