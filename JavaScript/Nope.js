@@ -1,6 +1,4 @@
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
- <script type="text/javascript">
-		$(window).load(function() {
+$(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     animationLoop: true,
@@ -11,4 +9,3 @@
     maxItems: 8,
   })
 });
-</script>
