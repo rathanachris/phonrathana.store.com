@@ -355,38 +355,52 @@ color: black;
 .cta-button:hover {
 background-color: #131726;
 }
-/* icons-grid container.icons */
-.icons-container .icons-grid{
-background:#eee;
-display: flex;
-flex-wrap: wrap;
-gap:1.5rem;
-padding-top: 5rem;
-padding-bottom: 5rem;
+/* Container for the icons section */
+#icons-contaner {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
 }
-.icons-container .icons{
- background:#fff;
- border:.1rem solid Irgba(0,0,0,.5);
- padding:2rem;
- display: flex;
- align-items: center;
- flex:1 1 25rem;
- }
-.icons-container .icons img{
- height:5rem;
- margin-right: 2rem;
- box-shadow: 0 3px 6px rgba(0,0,0,0.11);
+/* Grid layout for categories */
+.category-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.icons-container .icons h3{
- color: #333;
- padding-bottom: .5rem;
- font-size: 1.5rem;
+/* Style each icon box */
+.category-grid .icons {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px 24px;
+  transition: transform 0.2s ease;
+  width: 260px;
 }
-.icons-container.icons span {
- color: #555;
- padding-bottom: .5rem; 
- font-size: 1.5rem;
+/* Add hover effect */
+.category-grid .icons:hover {
+  transform: translateY(-5px);
 }
+/* Icon image */
+.category-grid .icons img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+/* Text container */
+.category-grid .info h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+  text-transform: capitalize;
+}
+.category-grid .info span {
+  font-size: 14px;
+  color: #777;
+}
+
 footer {
  background-color: #161a2c;
  color: black;
