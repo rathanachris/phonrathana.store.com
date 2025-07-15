@@ -361,14 +361,14 @@ background-color: #131726;
   background-color: #f9f9f9;
 }
 /* Grid layout for categories */
-.category-grid {
+.contaner-grid {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
 /* Style each icon box */
-.category-grid .icons {
+.contaner-grid .icons {
   display: flex;
   align-items: center;
   background-color: white;
@@ -379,33 +379,26 @@ background-color: #131726;
   width: 260px;
 }
 /* Add hover effect */
-.category-grid .icons:hover {
+.contaner-grid .icons:hover {
   transform: translateY(-5px);
 }
 /* Icon image */
-.category-grid .icons img {
+.contaner-grid .icons img {
   width: 48px;
   height: 48px;
   margin-right: 16px;
 }
 
 /* Text container */
-.category-grid .info h3 {
+.contaner-grid .info h3 {
   font-size: 18px;
   margin: 0;
   color: #333;
   text-transform: capitalize;
 }
-.category-grid .info span {
+.contaner-grid .info span {
   font-size: 14px;
   color: #777;
-}
-
-footer {
- background-color: #161a2c;
- color: black;
- padding: 20px;
- text-align: center;
 }
 .social-icons {
 margin-top: 10px;
