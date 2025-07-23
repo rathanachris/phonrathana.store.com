@@ -285,66 +285,87 @@ footer-li {
  text-decoration: none;  
  margin: 35%;
 }
-/* about us section */
-body{
- font-family: Arial, sans-serif;     background-color: #f4f4f4; 
-color: #333; line-height: 1.6;
- min-height: 50vh;
- background:url(../img/png) no-repeat;/*Add your background
-image path*/
- background-size: cover; /* Makes the image cover the whole background-position: center;  Center the image */
- background-repeat: no-repeat; /* Prevent the image from background repeating */
+/* General Section Styling */
+.about-section {
+  background-color: #fdfdfd;
+  padding: 60px 20px;
+  text-align: center;
 }
-/* header logo img */
-.header{
- background-color: #333;
- color: white;
- padding: 10px 0;
+
+.about-section .heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-transform: capitalize;
 }
-.about .row{
- display: flex;
- align-items: center;
- gap:2rem;
- flex-wrap: wrap;
- padding:2rem 0;
- padding-bottom: 3rem;
+
+.about-section .heading span {
+  color: #e91e63;
 }
-.about .row.video-container{
-flex:1 1 40rem;
-position: relative;
+
+/* Row Layout */
+.about-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.about .row.video-container video{
-width:100%;
-border:1.5rem solid #fff;
-border-radius: .5rem;
-box-shadow: 0.5rem 1rem Irgba(0,0,0,.1);
+
+/* Video Container */
+.about-section .video-container {
+  flex: 1 1 500px;
+  max-width: 600px;
 }
-.about.row.video-container h3{
-position: absolute;
-top:50%;top:50%; transform: translateY(-50%);
-font-size: 3rem;
-background:#fff;
-width:100%;
-padding:1rem 2rm;
+
+.about-section .video-container video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
-.about.row content{
- flex:1 1 40rem;
+
+/* Content Styling */
+.about-section .content {
+  flex: 1 1 300px;
+  text-align: left;
+  padding: 20px;
 }
-.about.row.content h3{
- font-size: 3rem;
- color: #333;
+
+.about-section .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-transform: capitalize;
 }
-.about.row content p{
- font-size: 1.5rem;
- color: #9999;
+
+.about-section .content span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #e91e63;
+  margin-bottom: 10px;
 }
-.cta-button {
- padding: 10px 10px;
- background-color: #15192a;
- color: black;
+
+.about-section .content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
-.cta-button:hover {
- background-color: #131726;
+
+/* Button Styling */
+.about-section .button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #15192a;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  padding: 10px 10px;
 }
 /* Container for the icons section */
 #icons-contaner {
