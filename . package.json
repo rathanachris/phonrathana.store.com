@@ -1,0 +1,24 @@
+{
+    "name": "openonline.shop.com",
+    "version": "1.0.0",
+    "description": "A simple e-commerce project for OpenOnline.shop.com",
+    "main": "index.js",
+    "scripts": {
+     "start": "node index.js",
+     "dev": "nodemon index.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+ },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "repository": {
+     "type": "git",
+     "url": "git@github.com:rathanachris/openonline.shop.com.git"
+ },
+    "dependencies": {
+    "debug": "^4.4.1"
+ },
+    "devDependencies": {
+    "nodemon": "^2.0.22"
+    }
+ }
