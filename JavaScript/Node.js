@@ -1,4 +1,4 @@
-<script>
+
 document.getElementById('regi-form').addEventListener('submit', function(e) {
   const firstName = document.querySelector('input[name="first_name"]').value.trim();
   const lastName = document.querySelector('input[name="last_name"]').value.trim();
@@ -11,4 +11,4 @@ document.getElementById('regi-form').addEventListener('submit', function(e) {
     e.preventDefault(); // Stop form submission
   }
 });
-</script>
+
