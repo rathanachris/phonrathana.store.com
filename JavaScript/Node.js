@@ -1,14 +1,15 @@
+// server.js
+const express = require('express');
+const app = express();
 
-document.getElementById('regi-form').addEventListener('submit', function(e) {
-  const firstName = document.querySelector('input[name="first_name"]').value.trim();
-  const lastName = document.querySelector('input[name="last_name"]').value.trim();
-  const email = document.querySelector('input[name="email"]').value.trim();
-  const password = document.querySelector('input[name="password"]').value;
-  const gender = document.querySelector('input[name="gender"]:checked');
+app.use(express.json()); // for parsing JSON
 
-  if (!firstName || !lastName || !email || !password || !gender) {
-    alert("Please fill in all fields correctly.");
-    e.preventDefault(); // Stop form submission
-  }
+app.post('/add-to-cart', (req, res) => {
+    console.log('Received item:', req.body);
+    res.json({ status: 'success', item: req.body });
+});
+
+app.listen(3000, () => {
+    console.log('Server running at http://localhost:3000');
 });
 
