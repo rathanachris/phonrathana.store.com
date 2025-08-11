@@ -206,37 +206,6 @@ document.getElementById('regi-form').addEventListener('submit', function(e) {
     e.preventDefault(); // Stop form submission
   }
 });
- </script>
-  <script type="text/javascript">
- new PerformanceObserver((entryList) => {
-  const entries = entryList.getEntries();
-
-  for (const entry of entries) {
-    // Some resources might have a responseStart value of 0 if they're being
-    // cached, or if a cross-origin resource is served without a
-    // Timing-Allow-Origin header set.
-    if (entry.responseStart > 0) {
-      console.log(`TTFB: ${entry.responseStart}`, entry.name);
-    }
-  }
-}).observe({
-  type: 'resource',
-  buffered: true
-});
-observer.observe({ type: "navigation", buffered: true });
-</script>
- <script type="text/javascript">
- // server.mjs
-import { createServer } from 'node:http';
-const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World!\n');
-});
-// starts a simple http server locally on port 3000
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Listening on 127.0.0.1:3000');
-});
-// run with `node server.mjs`
 </script>
 <head>
 <body>
