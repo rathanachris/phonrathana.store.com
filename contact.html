@@ -89,15 +89,25 @@ required></textarea>
 <!-- Contact Section end -->
 <!-- Google Maps Embed -->
 <h2>Our Location</h2>
-<iframe class="map"
-
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1853497.036268788412d77.8328900597981313d29.91521904071936!2m3!1f0!2f0!3f0!3m2!1i1024121768 14f13.1!3m3!1m2!1s0x3908a8c07db0d237%3A0xcad2fa64e4ae2le9!2sOpposite%20Goel $20Sweet 120Shop%2C%20Arya%20Nagar%2C%20Jwalapur%2C%20Haridwar%2C%20Uttarakh and 20124901!5e0!3m2!1sen!2sin!4v169738294898515m2!1sen!2sin"
-allowfullscreen=""
-loading "lazy">
-
-</iframe>
-
-</section>
+</html>
+<body>
+<!-- From jsDelivr CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Custom CSS -->
+  <style>
+    #map {
+      height: 40vh;
+      width: 100%;
+    }
+ </style>
+<head>
+<body>
+<div id="map"></div>
+<!-- Local Leaflet JS -->
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js">
+</script>
+<!-- Your Custom JavaScript -->
+<hr class="col-1 my-5 mx-0">
 <footer>
 
 <p>® 2025 Website & copyright.&team!</p>
@@ -111,7 +121,20 @@ loading "lazy">
 <!-- prettier-ignore -->
  <script src="https://chris.ns.cloudflare.com/dns/crossorigin/rt/5.3.2/amplitude.min.js"/integrity="sha512-lirwWQmvBC65bnxU3HzKx5m7vfZJZTx/FrKyPWbtobcvujGbinQQRrNodtcgkp4mTZ00umzDeg7lraN351l0aA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </script>  
+<script>
+    // Create map and set center [Latitude, Longitude] and zoom level
+    var map = L.map('map').setView([11.5225, 104.8865], 13); // Phnom Penh
 
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // Add a marker
+    var marker = L.marker([11.5225, 104.8865]).addTo(map);
+    marker.bindPopup("<b>Hello.World</b><br>Phnom Penh.").openPopup();
+</script>
 </body>
 </html>
   
