@@ -31,6 +31,12 @@ section{
 .heading span{
     color: #ff40bd;
 }
+body{
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  color: #333; 
+  line-height: 1.6;
+}
 html{
   font-size: 65.5%;
   scroll-behavior: smooth;
@@ -291,18 +297,15 @@ footer-li {
   padding: 60px 20px;
   text-align: center;
 }
-
 .about-section .heading {
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 40px;
   text-transform: capitalize;
 }
-
 .about-section .heading span {
   color: #e91e63;
 }
-
 /* Row Layout */
 .about-section .row {
   display: flex;
@@ -313,33 +316,28 @@ footer-li {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 /* Video Container */
 .about-section .video-container {
   flex: 1 1 500px;
   max-width: 600px;
 }
-
 .about-section .video-container video {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
-
 /* Content Styling */
 .about-section .content {
   flex: 1 1 300px;
   text-align: left;
   padding: 20px;
 }
-
 .about-section .content h3 {
   font-size: 1.8rem;
   margin-bottom: 15px;
   color: #333;
   text-transform: capitalize;
 }
-
 .about-section .content span {
   display: inline-block;
   font-weight: bold;
@@ -347,14 +345,12 @@ footer-li {
   color: #e91e63;
   margin-bottom: 10px;
 }
-
 .about-section .content p {
   font-size: 1rem;
   color: #555;
   line-height: 1.7;
   margin-bottom: 20px;
 }
-
 /* Button Styling */
 .about-section .button {
   display: inline-block;
@@ -400,7 +396,6 @@ footer-li {
   height: 48px;
   margin-right: 16px;
 }
-
 /* Text container */
 .contaner-grid .info h3 {
   font-size: 18px;
@@ -412,19 +407,6 @@ footer-li {
   font-size: 14px;
   color: #777;
 }
-.social-icons {
-margin-top: 10px;
-}
-.social-icons a {
-color: White;
-margin: 0 10px;
-text-decoration: none;
-font-size: 24px;
-}
-.social-icons a:hover {
-color: #d4a373;
-}
-
 /* products section */
 .products {
   padding: 40px 20px;
@@ -531,21 +513,7 @@ color: #d4a373;
   font-size: 0.9rem;
   margin-left: 8px;
 }
-
-
-
 /* Review section */
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-body {
- font-family: Arial, sans-serif;
- background-color: #2f4f4f4;
- color: #333;
- line-height: 1.6;
-}
 .header{
  background-color: #333;
  color: white;
@@ -610,14 +578,6 @@ body {
   background-color: #2b08968;
 }
 /* contact us section */
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-body{
- font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6;
-}
 .contact{
  display: flex;
  align-items: center;
