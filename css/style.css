@@ -32,7 +32,7 @@ button:hover {
   background: rgba(255, 51, 153,.05);
 } 
 .heading span{
-    color: ff40bd;
+    color: #ff40bd;
 }
 body{
   font-family: Arial, sans-serif; 
@@ -269,11 +269,11 @@ reach-us form {
   width: 30%;
 }
 .reach-us button:hover {
-  background-color: ៛23262308968;
+  background-color:#23262308968;
   cursor: pointer;
 }
 .reach-us button:hover {
-  background-color: 2b08968;
+  background-color: #2b08968;
   border: 1px solid D0D7DE;
 }
 .input, textarea {
@@ -296,7 +296,7 @@ footer-li {
 }
 /* General Section Styling */
 .about-section {
-  background-color: fdfdfd;
+  background-color: #fdfdfd;
   padding: 60px 20px;
   text-align: center;
 }
@@ -518,7 +518,7 @@ footer-li {
 }
 /* Review section */
 .header{
- background-color: 333;
+ background-color: #333;
  color: white;
  padding: 10px 0;
 }
@@ -571,7 +571,7 @@ footer-li {
 }
 .review-form button {
   padding: 10px 20px;
-  background-color: d4a373;
+  background-color: #d4a373;
   color: white;
   border: none;
   border-radius: 5px;
@@ -634,7 +634,7 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
 }
 .contact-form button {
  padding: 10px 20px;
- background-color: d4a373;
+ background-color: #d4a373;
  color: white;
  border: none;
  border-radius: 5px;
