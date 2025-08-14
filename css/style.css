@@ -135,7 +135,7 @@ header .fa-bars{
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background:url(../img/avata-7.png) no-repeat;
+  background:url(../img/fd.computer.png) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -582,7 +582,7 @@ footer-li {
  display: flex;
  align-items: center;
  min-height: 30vh;
- background:url(../img/flowers-roses.png) no-repeat;
+ background:url(../img/..) no-repeat;
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
