@@ -20,17 +20,6 @@ section{
   cursor: pointer;
   font-size: 1.7rem;
 }
-button {
-  font-size: 5rem;       /* ទំហំអក្សរ និង icon */
-  border-radius: 50%;    /* បំលែងជារង្វង់ */
-  width: 90px;          /* ទទឹង */
-  height: 90px;         /* កម្ពស់ */
-  border: none;          /* មិនមានស៊ុម */
-  background-color: #3498db; /* ពណ៌ផ្ទៃខាងក្រោយ */
-  color: white;          /* ពណ៌អក្សរ/Icon */
-  cursor: pointer;       /* ដៃ pointer ពេល hover */
-}
-
 button:hover {
   background-color: #2980b9; /* ផ្លាស់ពណ៌ពេល hover */
 }
@@ -280,7 +269,7 @@ reach-us form {
   width: 30%;
 }
 .reach-us button:hover {
-  background-color: 23262308968;
+  background-color: ៛23262308968;
   cursor: pointer;
 }
 .reach-us button:hover {
@@ -380,7 +369,7 @@ footer-li {
 /* Container for the icons section */
 #icons-contaner {
   padding: 40px 20px;
-  background-color: f9f9f9;
+  background-color: #f9f9f9;
 }
 /* Grid layout for categories */
 .contaner-grid {
@@ -589,7 +578,7 @@ footer-li {
   cursor: pointer;
 }
 .review-form button:hover {
-  background-color: 2b08968;
+  background-color: #2b08968;
 }
 /* contact us section */
 .contact{
@@ -652,7 +641,7 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
  cursor: pointer;
 }
 .contact-form button:hover {
- background-color: 608968;
+ background-color: #608968;
 }
 .map{
  margin: 20px 0;
