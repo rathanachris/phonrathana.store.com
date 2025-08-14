@@ -23,8 +23,8 @@ section{
 button {
   font-size: 5rem;       /* ទំហំអក្សរ និង icon */
   border-radius: 50%;    /* បំលែងជារង្វង់ */
-  width:50px;          /* ទទឹង */
-  height: 50px;         /* កម្ពស់ */
+  width: 90px;          /* ទទឹង */
+  height: 90px;         /* កម្ពស់ */
   border: none;          /* មិនមានស៊ុម */
   background-color: #3498db; /* ពណ៌ផ្ទៃខាងក្រោយ */
   color: white;          /* ពណ៌អក្សរ/Icon */
@@ -43,11 +43,11 @@ button:hover {
   background: rgba(255, 51, 153,.05);
 } 
 .heading span{
-    color: #ff40bd;
+    color: ff40bd;
 }
 body{
   font-family: Arial, sans-serif; 
-  background-color: #f4f4f4; 
+  background-color: f4f4f4; 
   color: #333; 
   line-height: 1.6;
 }
@@ -77,7 +77,7 @@ nav ul li a:hover {
 header{
   position: fixed;
   top:0; left:0; right:0;
-  background:#ffff;
+  background: #ffff;
   padding:2rem 9%;
   display: flex;
   align-items: center;
