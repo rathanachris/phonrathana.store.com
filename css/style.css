@@ -69,7 +69,7 @@ header{
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  box-shadow: 0.5rem 1rem rgba;(0.0.0.1);
+  box-shadow: 0.5rem 1rem rgba(0.0.0.1);
 }
 /* header logo */
 header .logo{
@@ -125,11 +125,11 @@ header .fa-bars{
 }
 .header .navbar a{
   margin:1.5rem;
-  padding:1.5rem;
+  padding:1.5rem;.
   background:#fff;
   border:.1rem solid rgba(0,0,0,.1);
   display: block;
-  height: ;
+  height: 0px;
 }
 .home{
   display: flex;
@@ -165,7 +165,6 @@ header .fa-bars{
    }
 }
 /* Hero Section with Background Image */
-}
 .hero-content {
  background: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay*/
  border: 4px solid black;
@@ -185,14 +184,14 @@ header .fa-bars{
 }
 .cta-button {
  padding: 10px 20px;
- background-color: #2d4a373;
+ background-color: 2d4a373;
  color: white;
  text-decoration: none;
  font-size: 18px;
  border-radius: 5px;
 }
 .cta-button:hover {
- background-color: #2b08968;
+ background-color: 2b08968;
 }
 .categories {
  padding: 50px 0;
@@ -266,11 +265,11 @@ reach-us form {
   width: 30%;
 }
 .reach-us button:hover {
-  background-color:#23262308968;
+  background-color:23262308968;
   cursor: pointer;
 }
 .reach-us button:hover {
-  background-color: #2b08968;
+  background-color: 2b08968;
   border: 1px solid D0D7DE;
 }
 .input, textarea {
@@ -575,7 +574,7 @@ footer-li {
   cursor: pointer;
 }
 .review-form button:hover {
-  background-color: #2b08968;
+  background-color: 2b08968;
 }
 /* contact us section */
 .contact{
