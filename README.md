@@ -1,4 +1,4 @@
-# opensmile.shop.com Website Deployment
+# opensmile.shop.com website Deployment
 
 ## 🚀 Quick Deploy with Token
 
