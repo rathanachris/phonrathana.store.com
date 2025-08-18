@@ -1,9 +1,13 @@
 {
-  "name": "opensmile.shop.com Dev",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "20"
+  "name": "my-project-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
+    "features": {
+        "ghcr.io/devcontainers-extra/features/aws-cdk:2": {
+            "version": "1.18"
+     },
+      "ghcr.io/devcontainers/features/docker-in-docker:1": {
+         "version": "latest",
+             "moby": true
     }
   },
   "customizations": {
@@ -14,6 +18,7 @@
       ]
     }
   },
+  "name": "opensmile.shop.com-Dev",
   "postCreateCommand": "npm install",
   "forwardPorts": [3000],
   "remoteUser": "codespace"
