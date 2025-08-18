@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "openonline.shop.com",
+  "name": "opensmlie.shop.com",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
