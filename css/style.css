@@ -600,6 +600,19 @@ footer-li {
 }
 .review-form button:hover {
   background-color: 2b08968;
+.top{
+display:flex;
+justify-content:center;/* កណ្ដាលអន្លំ (horizontal) */
+ align-items:center;/* កណ្ដាលឈរ (vertical) */
+ min-height:50px;/* ក្នុងករណីចង់ឲ្យមានកម្ពស់មួយ */
+}
+.top img {
+display: block;
+margin: 0 auto;
+max-width: 40px;   /* កំណត់ទំហំរូប */
+height: 40px;      /* កំណត់ទំហំស្មើគ្នា */
+border-radius: 50%; /* ធ្វើឲ្យជារង្វង់ */
+object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
 }
 /* contact us section */
 .contact{
