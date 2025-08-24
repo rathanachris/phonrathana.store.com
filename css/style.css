@@ -598,8 +598,6 @@ footer-li {
   border-radius: 5px;
   cursor: pointer;
 }
-.review-form button:hover {
-  background-color: 2b08968;
 .top{
 display:flex;
 justify-content:center;/* កណ្ដាលអន្លំ (horizontal) */
@@ -614,6 +612,8 @@ height: 40px;      /* កំណត់ទំហំស្មើគ្នា */
 border-radius: 50%; /* ធ្វើឲ្យជារង្វង់ */
 object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
 }
+.review-form button:hover {
+  background-color: 2b08968;
 /* contact us section */
 .contact{
  display: flex;
