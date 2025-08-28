@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "185184976746",
-    "firedase_url": "https://chrisshop.com.dns.cloudhell.appspot.com",
-    "project_id": "chrisshop.com",
-    "storage_bucket": "chrisshop.com-dns.cloudhell.appspot.com"
+    "firedase_url": "https://dns.chrisshop.com.appspot.com",
+    "project_id": "dns.smileshop.com",
+    "storage_bucket": "dna.smileshop.com.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:755859391e691a80",
         "android_client_info": {
-          "package_name": "chrisshop.dns.com"
+          "package_name": "dns.smileshop.com"
         }
       },
       "oauth_client": [
