@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "opensmlie.shop.com",
+  "name": "dns.charactersmile.shop.net",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
