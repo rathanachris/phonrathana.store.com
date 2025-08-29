@@ -164,6 +164,37 @@ header .fa-bars{
       font-size: 3rem;
    }
 }
+a.fas.fa-heart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 18%;
+  background: #fce4ec;       /* ផ្ទៃផ្កាឈូកស្រាល */
+  color: #e91e63;            /* ពណ៌បេះដូង */
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Hover effect */
+a.fas.fa-heart:hover {
+  background: #e91e63;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* បន្ថែម effect beating animation */
+@keyframes heartbeat {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1.2); }
+  40%  { transform: scale(0.9); }
+  60%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
 a.fas.fa-shopping-cart {
 width:20px;
   height:20px;
@@ -695,7 +726,7 @@ footer {
   display:inline-block;
 }
 .social-icons a li {
-  margin: 0 18px;
+  margin: 0 15px;
   text-decoration: none;
   font-size: 20px;
   color: #ffd26a;
