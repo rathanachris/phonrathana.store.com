@@ -645,12 +645,13 @@ object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
 }
 .review-form button:hover {
   background-color: 2b08968;
+
 /* contact us section */
 .contact{
  display: flex;
  align-items: center;
  min-height: 30vh;
- background:url(../img/..) no-repeat;
+ background:url(../img/flowers-roses.png) no-repeat;
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -691,7 +692,9 @@ object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
  margin-bottom: 30px;
 }
 .contact-form{
- max-width: 600px; margin: 0 auto; text-align: left;
+ max-width: 600px; 
+ margin: 0 auto;    
+ text-align: left;
 }
 .contact-form input,
 .contact-form textarea{
