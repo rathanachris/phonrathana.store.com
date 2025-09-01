@@ -158,7 +158,7 @@ header .fa-bars{
 }
 @media (max-width: 450px){
    html{
-      font-size: 20%;
+      font-size: 25%;
      }
    .heading{
       font-size: 3rem;
@@ -645,7 +645,7 @@ object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
 }
 .review-form button:hover {
   background-color: 2b08968;
-
+}
 /* contact us section */
 .contact{
  display: flex;
