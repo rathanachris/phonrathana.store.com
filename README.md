@@ -1,4 +1,4 @@
-# opensmile.shop.com website Deployment
+# dns.mileshop.stork.com website Deployment
 
 ## 🚀 Quick Deploy with Token
 
@@ -13,8 +13,8 @@
 # deploy_web_Token.sh
 # Script to deploy website with API Token to Google Cloud Run
 
-PROJECT_ID="opensmile.shop.com"
-SERVICE_NAME="opensmile-web"
+PROJECT_ID="dns.mileshop.stork.com"
+SERVICE_NAME="dns.mileshop.stork-web"
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
