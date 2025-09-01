@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "dns.charactersmile.shop.net",
+  "name": "dns.smlieshop.stork.com",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
