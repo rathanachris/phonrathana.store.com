@@ -118,6 +118,45 @@
     </div>
   </section>
 </header>
+ <script>
+  import { useState } from "react";
+
+export default function OrderForm() {
+  const [form, setForm] = useState({
+    fullname: "",
+    email: "",
+    phone: "",
+    address: "",
+    shipping: ""
+  });
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const res = await fetch("http://localhost:3000/order", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form)
+    });
+    const result = await res.json();
+    alert(result.message);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input name="fullname" placeholder="ឈ្មោះពេញ" onChange={handleChange} />
+      <input name="email" placeholder="Gmail" onChange={handleChange} />
+      <input name="phone" placeholder="លេខទូរស័ព្ទ" onChange={handleChange} />
+      <input name="address" placeholder="អាសយដ្ឋាន" onChange={handleChange} />
+      <textarea name="shipping" placeholder="ទីតាំងដឹកជញ្ជូន" onChange={handleChange} />
+      <button type="submit">✅ បញ្ជាទិញ</button>
+    </form>
+     );
+  }
+ </script>
 </body>
 </html>
   
