@@ -1,4 +1,4 @@
-# dns.mileshop.store.com website Deployment
+# mileshop.store.com website Deployment
 
 ## 🚀 Quick Deploy with Token
 
