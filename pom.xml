@@ -27,7 +27,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>chrisshop Backend</name>
-    <description>Spring Boot backend for chrisshop Web App</description>
+    <description>Spring Boot backend for smilshop.store.Web App</description>
 
     <!-- Java version -->
     <properties>
