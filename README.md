@@ -1,20 +1,19 @@
-# dns.mileshop.stork.com website Deployment
+# dns.mileshop.store.com website Deployment
 
 ## 🚀 Quick Deploy with Token
 
-សម្រាប់អ្នកចង់ Deploy Website ទៅ Google Cloud Run ដោយមាន API Token សម្រាប់ Web Access អ្នកអាចប្រើ Script ខាងក្រោម។
+Deploy Website ទៅ Google Cloud Run ដោយមាន API Token Web Access Script 
 
 ### 1. Save Script
-បង្កើតឯកសារ `deploy_web_Token.sh`  
-ដាក់កូដដូចខាងក្រោម៖
+`deploy_web_Token.sh`  
 
 ```bash
 #!/bin/bash
 # deploy_web_Token.sh
 # Script to deploy website with API Token to Google Cloud Run
 
-PROJECT_ID="dns.mileshop.stork.com"
-SERVICE_NAME="dns.mileshop.stork-web"
+PROJECT_ID="mileshop.store.com"
+SERVICE_NAME="mileshop.store-web"
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
