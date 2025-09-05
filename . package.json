@@ -1,5 +1,5 @@
 {
-    "name": "dns.smlieshop.stork.in",
+    "name": "smlieshop.store.com",
     "version": "1.0.0",
     "description": "A simple e-commerce project for dns.smlieshop.stork.com",
     "main": "index.js",
@@ -13,7 +13,7 @@
     "license": "ISC",
     "repository": {
      "type": "git",
-     "url": "git@github.com:rathanachris/dns.smlieshop.stork.com.git"
+     "url": "git@github.com:rathanachris/smlieshop.store.com.git"
  },
     "dependencies": {
     "debug": "^4.4.1"
