@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "185184976746",
-    "firedase_url": "https://www.smileshop.store.com.appspot.wed",
-    "project_id": "dns.smileshop.store.com",
-    "storage_bucket": "dna.smileshop.com.appspot.com"
+    "firedase_url": "https://www.phonrathana.store.appspot.wed",
+    "project_id": "phonrathana.store.con",
+    "storage_bucket": "phonrathana.store.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:755859391e691a80",
         "android_client_info": {
-          "package_name": "dns.smileshop.store.com"
+          "package_name": "phonrathana.st-ore.con"
         }
       },
       "oauth_client": [
@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:e92bfb17e27640f0",
         "android_client_info": {
-          "package_name": "com.google.cloudhell.dnsprotection"
+          "package_name": "phonrathana.st-ore.com"
         }
       },
       "oauth_client": [
