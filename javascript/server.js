@@ -10,5 +10,5 @@ app.post('/add-to-cart', (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log('Server running at http://localhost:3000');
+    console.log('Server running at https://:3000');
 });
