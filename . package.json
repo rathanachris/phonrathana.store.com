@@ -1,7 +1,7 @@
 {
-    "name": "smlieshop.store.com",
+    "projectname": "phonrathana.store.com",
     "version": "1.0.0",
-    "description": "A simple e-commerce project for dns.smlieshop.stork.com",
+    "description": "A simple e-commerce project for phonrathana.store.com",
     "main": "index.js",
     "scripts": {
      "start": "node index.js",
@@ -9,11 +9,11 @@
      "test": "echo \"Error: no test specified\" && exit 1"
  },
     "keywords": [],
-    "author": "",
+    "author": "callback",
     "license": "ISC",
     "repository": {
      "type": "git",
-     "url": "git@github.com:rathanachris/smlieshop.store.com.git"
+     "url": "git@github.com:rathanachris/phonrathana.store.com.git"
  },
     "dependencies": {
     "debug": "^4.4.1"
