@@ -1,1 +1,1 @@
->routerip:192.100.2.1 www.phonrathana.store.com hsots ns1[0.0.0.0]:80 pots 443 (public ip DNS)
+>router:192.100.2.1 www.phonrathana.store.com hsots ns1[0.0.0.0]:80 pots 443 (public ip DNS)
