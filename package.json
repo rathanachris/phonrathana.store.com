@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "smlieshop.store.com",
+  "name": "phonrathana.st-ore.com",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "callback",
   "license": "ISC",
-  "description": ""
+  "description": "https://www.phonrathana.st-ore.com"
 }
