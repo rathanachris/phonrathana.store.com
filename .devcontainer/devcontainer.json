@@ -1,4 +1,5 @@
-{
+{  
+    "projectname": "phonrathana.store devdevcontainers",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:3-22",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
@@ -11,7 +12,6 @@
                 "mads-hartmann.bash-ide-vscode",
                 "dbaeumer.vscode-eslint",
                 "EditorConfig.EditorConfig"
-    
             ]
         }
     }
