@@ -173,7 +173,7 @@ a.fas.fa-heart {
   border-radius: 18%;
   background: #fce4ec;       /* ផ្ទៃផ្កាឈូកស្រាល */
   color: #e91e63;            /* ពណ៌បេះដូង */
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -198,14 +198,14 @@ a.fas.fa-heart:hover {
 a.fas.fa-shopping-cart {
 width:20px;
   height:20px;
-  border-radius:20%;
-  font-size:20px;
+  border-radius:17%;
+  font-size:17px;
 }
 a.fas.fa-user {
   width:20px;
   height:20px;
-  border-radius:20%;
-  font-size:20px;
+  border-radius:17%;
+  font-size:17px;
 }
 /* Search bar + button */
 .search{
