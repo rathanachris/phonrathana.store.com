@@ -156,9 +156,9 @@ header .fa-bars{
   color: #999;
   text-transform: none;
 }
-@media (max-width: 480px){
+@media (max-width: 450px){
    html{
-      font-size: 28%;
+      font-size: 25%;
      }
    .heading{
       font-size: 3rem;
@@ -651,7 +651,7 @@ object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
  display: flex;
  align-items: center;
  min-height: 30vh;
- background:url(../img/flowers-roses.png) no-repeat;
+ background:url(../img/png) no-repeat;
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
