@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll to GitHub Pages
 on:
   push:
     branches:
-      - main   # ប្រសិនបើអ្នកប្រើ branch ផ្សេង → ប្តូរទីនេះ
+      - master   # ប្រសិនបើអ្នកប្រើ branch ផ្សេង → ប្តូរទីនេះ
 
 permissions:
   contents: read
