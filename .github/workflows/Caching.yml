@@ -35,6 +35,7 @@ jobs:
       - name: Test
         run: npm test
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        shell: npm start 
             npm-feature-${{ hashFiles('package-lock.json') }}
             npm-feature-
             npm-
