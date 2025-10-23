@@ -9,6 +9,6 @@ app.post('/add-to-cart', (req, res) => {
     res.json({ status: 'success', item: req.body });
 });
 
-app.listen(3000, () => {
-    console.log('Server running at https://:3000');
+app.listen(443, () => {
+    console.log('Server running at https://:443');
 });
