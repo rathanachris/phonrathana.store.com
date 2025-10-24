@@ -22,12 +22,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Project Info -->
-    <groupId>com.chrisrathana</groupId>
+    <groupId>com.phonrathana</groupId>
     <artifactId>1.0.0-backend</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>chris rathana Backend</name>
-    <description>Spring Boot backend for phonrathana.store.Web App</description>
+    <description>Spring Boot backend for phonrathana.store.WebApp</description>
 
     <!-- Java version -->
     <properties>
@@ -59,8 +59,8 @@
 
         <!-- MySQL Connector -->
         <dependency>
-            <groupId>com.chrisrathana.mysql</groupId>
-            <artifactId>com.chrisrathana.mysql-connector-c</artifactId>
+            <groupId>com.phonrathana.mysql</groupId>
+            <artifactId>com.phonrathana.mysql-connector-c</artifactId>
             <scope>runtime</scope>
         </dependency>
 
