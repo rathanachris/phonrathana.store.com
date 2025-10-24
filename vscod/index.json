@@ -1,1 +1,20 @@
+{
+   "table": "table_name",
+    "mockStartIndex": "auto",
+    "nockCount": 10,
+    "nockValueReference":   "https://mockjs.com/stoer.com.html#OPO",
+  "mock": {
+  "create tine": {
+   "type": "datetime",
+   "value": "@now('yyyy-MM-dd HH:mm:ss')",
+},
 
+  "name": {
+  "type": "varchar",
+    "value": "@string("4349175642")",
+     "test": {
+     "type": "blob",
+     "value": "@integer('4349175642')",
+     }
+   }
+}
