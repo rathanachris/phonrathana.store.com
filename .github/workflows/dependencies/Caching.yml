@@ -19,7 +19,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
-            ${{ runner.os }}-v4.3.0
+            ${{ runner.os }}-v4.3.0-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         name: List the state of node modules
@@ -38,7 +38,9 @@ jobs:
         shell: npm start 
             npm-feature-${{ hashFiles('package-lock.json') }}
             npm-feature-
-            npm-
-  
-
+            npm-${{ runner.os }}-node-
+        env:
+          MY_HASH: ${{ hashFiles('**/package-lock.json') }} # ខុស! hashFiles មិនអាចប្រើនៅទីនេះ
+          key: ${{ hashFiles('**/package-lock.json') }}
+              
         
