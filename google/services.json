@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:755859391e691a80",
         "android_client_info": {
-          "package_name": "phonrathana.st-ore.con"
+          "package_name": "phonrathana.store.con"
         }
       },
       "oauth_client": [
@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:e92bfb17e27640f0",
         "android_client_info": {
-          "package_name": "phonrathana.st-ore.com"
+          "package_name": "phonrathana.store.com"
         }
       },
       "oauth_client": [
