@@ -10,5 +10,5 @@ app.post('/add-to-cart', (req, res) => {
 });
 
 app.listen(443, () => {
-    console.log('Server running at https://:443');
+    console.log('Server running at https://$host$request_uri;443');
 });
