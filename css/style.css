@@ -156,7 +156,7 @@ header .fa-bars{
   color: #999;
   text-transform: none;
 }
-@media (max-width: 450px){
+@media (max-width: 435px){
    html{
       font-size: 20%;
      }
