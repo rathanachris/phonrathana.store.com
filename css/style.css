@@ -158,7 +158,7 @@ header .fa-bars{
 }
 @media (max-width: 450px){
    html{
-      font-size: 22%;
+      font-size: 20%;
      }
    .heading{
       font-size: 3rem;
@@ -467,6 +467,15 @@ footer-li {
   padding: 40px 20px;
   background: #f9f9f9;
 }
+.products {
+ display: flex;
+ align-items: center;
+ min-height: 30vh;
+ background:url(../img/.png) no-repeat;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
 .products .heading {
   text-align: center;
   font-size: 2.5rem;
@@ -712,10 +721,9 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
  background-color: #608968;
 }
 .map{
- margin: 20px 0;
+ margin: 20px ;
  border: 0;
- width: 100%;
- height: 400px;
+ height: 40px;
 }
 footer {
  background-color: #333;
