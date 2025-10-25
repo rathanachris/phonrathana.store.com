@@ -466,15 +466,10 @@ footer-li {
 .products {
   padding: 40px 20px;
   background: #f9f9f9;
-}
-.products {
- display: flex;
- align-items: center;
- min-height: 30vh;
- background:url(../img/.png) no-repeat;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background:url(../img/.png) no-repeat;
 }
 .products .heading {
   text-align: center;
