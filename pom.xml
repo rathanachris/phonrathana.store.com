@@ -23,7 +23,7 @@
 
     <!-- Project Info -->
     <groupId>com.phonrathana</groupId>
-    <artifactId>1.0.0-backend</artifactId>
+    <artifactId>myapp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>chris rathana Backend</name>
