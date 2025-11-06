@@ -6,8 +6,9 @@
 #(node:2618) [DEP0040]{(192.168.100.1:443)}     #
 #################################################
 
->route:192.168.2.1:80 www.dns.chrisshop.com.hosts
->route:192.168.2.1:80 www.chrisrathana.master.com.hosts
->route:192.168.100.1:80 myapp-com.chrisrathana.hosts
->route:192.168.2.1:80 www.phonrathana.store.com.hosts
+>route:192.168.1.0:443 www.dns.chrisshop.com.hosts  DNS[0.0.0.0]80
+>route:192.168.1.0:443 www.chrisrathana.master.com.hosts  DNS[0.0.0.0]80
+>route:192.168.100.1:443 myapp-com.chrisrathana.hosts  DNS[0.0.0.0]80
+>route:192.168.1.0:443 www.phonrathana.store.com.hosts DNS[0.0.0.0]80
+
 
