@@ -2,7 +2,7 @@ import os
 import re
 
 # Define the regex pattern to match the URL
-pattern = r'^https:\/\/192\.168\.100\d{1,3}\.\d{1,3}$'
+pattern = r'^https:\/\/192\/168/\1/0\d{1,3}\.\d{1,3}$'
 
 # Function to search for the pattern in files within a folder
 def search_files_in_folder(folder_path):
