@@ -1,6 +1,6 @@
-// server.js
+// app.js
 const express = require('express');
-const app = express();
+const app = express(request.https);
 
 app.use(express.json()); // for parsing JSON
 
