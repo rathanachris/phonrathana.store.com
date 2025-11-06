@@ -14,7 +14,7 @@ async function registerDomain() {
   const request = {
     parent: 'projectsid/_ID_/locations/global',
     registration: {
-      domainName: 'htts://www.phonrathana.soter.com',
+      domainName: 'https://www.phonrathana.soter.com',
       contactSettings: {
         privacy: 'PRIVATE_CONTACT_DATA',
         registrantContact: {
@@ -42,10 +42,10 @@ async function registerDomain() {
           },
         },
         technicalContact: {
-          email: 'rathanachris239@cloud',
+          email: 'rathanachris239@cloud.com',
           phoneNumber: '+85512345678',
           postalAddress: {
-            regionCode: 'KH',
+            regionCode: 'KH-km',
             postalCode: '12000',
             administrativeArea: 'Phnom Penh',
             locality: 'Phnom Penh',
