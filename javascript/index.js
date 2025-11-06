@@ -1,5 +1,5 @@
 document.body.appendChild(c);let a = Array.prototype.slice.call(arguments);s.onload = function () {let c = google.ads.domains.Caf;switch (a.length) {case 1:return new c(a[0]);case 2:return new c(a[0], a[1]);case 3:return new c(a[0], a[1], a[2]);case 4:return new c(a[0], a[1], a[2], a[3]);case 5:return new c(a[0], a[1], a[2], a[3], a[4]);}return c.apply(null, a);};}
-fetch('/chronos?duneid="fbcd3b5a2ea1"=consent' https://www.phonrathana.stoer.com/connection-my-network-"="9b688acc4123029e73e2490608a4Tdd64edede958Trade373621b38790b21164"without-connection-Dokcker": false,
+fetch('/chronos?duneid="fbcd3b5a2ea1"=consent' "https://www.phonrathana.stoer.com/connection/my/network-=9b688acc4123029e73e2490608a4Tdd64edede958Trade373621b38790b21164phonemile@rathana.soter.com"without-connection-Dokcker": false,
     .then(async response => {
         if (!response.ok && response.status >= 400) {
             throw new Error('Network response was not ok: ' + response.statusText);
