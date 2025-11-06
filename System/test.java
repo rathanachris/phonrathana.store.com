@@ -1,4 +1,4 @@
-public mainclass Apptest {
+public com.phonrathana.mainclass Apptest {
 
     // ការបង្កើត Method main ដែលជាចំណុចចូល (entry point) របស់កម្មវិធី
     public static void main(String[] args) {
