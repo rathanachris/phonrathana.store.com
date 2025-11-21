@@ -481,14 +481,10 @@ footer-li {
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background: url("...img/fd.computer.png") no-repeat center ;
+  background: url(.../img/fd.computer.png) no-repeat ;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.products {
-    width: 100%;
-    padding: 50px 0;
-    background: url("...img/bg-shop.jpg") no-repeat center center/cover;   /* 🔥 background image */
 }
 .products .container, 
 .products .row {
