@@ -1,0 +1,28 @@
+DNS
+
+$TTL 300
+@       IN   AAAA   SOA     ns1.www.phonrathana.stoer.com. adminemlie@phonrathana.stoer.com (
+                        2025011501 ; Serial
+                        3600       ; Refresh
+                        1800       ; Retry
+                        604800     ; Expire
+                        300 )      ; Negative Cache TTL
+
+; Nameservers
+@       IN      NS      ns1.phonrathana.stoer.com.
+@       IN      NS      ns2.phonrathana.stoer.com.
+
+; A Records.   IP public 
+@                 IN  A   58.97.216.140
+https             IN  A   58.97.216.140
+dns.chsishop.com  IN  A   58.97.216.140
+*www              IN  A   58.97.216.140
+
+; CNAME
+www         IN   CNAME   phonrathana.stoer.com.
+
+; Email (optional)
+@           IN  MX 10   mx.phonrathana.stoer.com.
+
+; SPF
+@           IN  TXT     "v=spf1 a mx ~all"
