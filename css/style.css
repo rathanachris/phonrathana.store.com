@@ -478,14 +478,100 @@ footer-li {
   background-size: cover;
   background-position: center;
 }
-.products .heading {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  text-transform: capitalize;
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.products .heading span {
-  color: #ff4d4d;
+.products {
+    width: 100%;
+    padding: 50px 0;
+    background: url("img/bg-shop.jpg") no-repeat center center/cover;   /* 🔥 background image */
+}
+.products .container, 
+.products .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products .content {
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+}
+.products h3 {
+    font-size: 28px;
+    color: #222;
+}
+.products span {
+    font-size: 18px;
+    color: #777;
+}
+.products p {
+    margin: 15px 0;
+    color: #333;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* product grid */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+.image img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.icons a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #444;
+    text-decoration: none;
+}
+.cart-btn {
+    padding: 8px 15px;
+    background: #0099ff;
+    color: white !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.price {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.price span {
+    text-decoration: line-through;
+    color: #999;
 }
 .box-container {
   display: flex;
