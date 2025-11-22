@@ -1,4 +1,4 @@
-# mileshop.store.com website Deployment
+# www.phonrathana.store.com website Deployment
 
 ## 🚀 Quick Deploy with Token
 
@@ -12,8 +12,8 @@ Deploy Website ទៅ Google Cloud Run ដោយមាន API Token Web Access S
 # deploy_web_Token.sh
 # Script to deploy website with API Token to Google Cloud Run
 
-PROJECT_ID="mileshop.store.com"
-SERVICE_NAME="mileshop.store-web"
+PROJECT_ID="www.phonrathana.store.com
+SERVICE_NAME="www.phonrathana.store.com-web"
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
