@@ -1,4 +1,4 @@
-package com.phonrathana_main.servis.AI.Gemini
+package com.stoer.phonrathana_main.AI.Gemini service 
 import (
     "net/https"
     "github.com/gin-gonic/gin"
