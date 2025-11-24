@@ -13,8 +13,8 @@
           type="win32"
           name="Microsoft.Windows.Common-Controls"
           version="6.0.0.0"
-          processorArchitecture="*"
-          publicKeyToken="wrxq4rqjx7xjfvvp6"
+          processorArchitecture="client"
+          publicKeyToken="Ov231iUAGM8YNHYtalVX"
           language="*"
       />
     </dependentAssembly>
