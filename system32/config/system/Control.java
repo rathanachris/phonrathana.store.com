@@ -1,7 +1,7 @@
 package com.phonrathana.demo;
 
 import javax.print.attribute.standard.MediaSize.Other;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.webapk.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
