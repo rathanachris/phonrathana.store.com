@@ -1,10 +1,10 @@
-#################################################
+###########################################
 #        WARNING! FOR EXPERTS ONLY!             #
 #  This is personalDNS configuration!           #
-#.   Only edit this file if you are an expert!  #
+#.   Only edit this file if you are an expert!  
 #          cloudflare-dns.com                   #
-#(node:2618) [DEP0040]{(192.168.100.1:443)}     #
-#################################################
+#(node:2618) [DEP0040] {(192.168.100.1:443)}     
+##########################################
 
 >route:192.168.1.0:443 www.dns.chrisshop.com.hosts  DNS[0.0.0.0]80
 >route:192.168.1.0:443 www.chrisrathana.master.com.hosts  DNS[0.0.0.0]80
