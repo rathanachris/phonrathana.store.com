@@ -469,11 +469,6 @@ footer-li {
 }
 /* products section */
 * Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 .products {
   padding: 40px 20px;
@@ -666,6 +661,17 @@ footer-li {
  background-color: #333;
  color: white;
  padding: 10px 0;
+}
+.review {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background: url(.../img/fd.computer.png) no-repeat ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .reviews-section {
  padding: 50px 20px;
