@@ -13,10 +13,10 @@ $TTL 300
 @       IN      NS      ns2.phonrathana.stoer.com.
 
 ; A Records.   IP public 
-@                 IN  A   192.168.100.1
-https             IN  A   58.97.216.140
-dns.chsishop.com  IN  A   58.97.216.140
-*www              IN  A   58.97.216.140
+@                       IN  A   192.168.100.1
+https                   IN  A   58.97.216.140
+*phonrathana.stoer.com  IN  A   58.97.216.140
+*www                    IN  A   58.97.216.140
 
 ; CNAME
 www         IN   CNAME   phonrathana.stoer.com.
