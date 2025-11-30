@@ -467,7 +467,6 @@ footer-li {
   color: #777;
 }
 /* products section */
-* Reset */
 }
 .products {
   padding: 40px 20px;
@@ -481,7 +480,6 @@ footer-li {
   background-position: center;
 }
 /* shop section */
-* Reset */
 .shop {
   padding: 40px 20px;
   background: #f9f9f9;
@@ -493,11 +491,6 @@ footer-li {
   background-size: cover;
   background-position: center;
 }
-.shop.container, 
-.shop .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 .shop.container, 
 .shop .row {
     display: flex;
