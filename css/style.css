@@ -131,10 +131,18 @@ header .fa-bars{
   display: block;
   height: 0px;
 }
+@media (max-width: 435px){
+   html{
+      font-size: 20%;
+     }
+   .heading{
+      font-size: 3rem;
+   }
+}
 .home{
   display: flex;
   align-items: center;
-  min-height: 5vh;
+  min-height: 30vh;
   background: url(../img/fd.computer.png) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
