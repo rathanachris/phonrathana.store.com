@@ -134,7 +134,7 @@ header .fa-bars{
 .home{
   display: flex;
   align-items: center;
-  min-height: 30vh;
+  min-height: 5vh;
   background: url(../img/fd.computer.png) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
