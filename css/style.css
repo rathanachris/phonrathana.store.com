@@ -745,6 +745,11 @@ footer-li {
   border-radius: 5px;
   cursor: pointer;
 }
+.avatar{
+  width:30px; height:30px; border-radius:50%;
+  object-fit:cover; display:inline-block;
+  overflow:hidden;
+}
 .top{
 display:flex;
 justify-content:center;/* កណ្ដាលអន្លំ (horizontal) */
