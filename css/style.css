@@ -224,7 +224,6 @@ padding:8px 10px;
  background: rgba(0, 0, 0, 0.5);
  border: 4px solid black;
 }
-}
 /* Hero Section with Background Image */
 .hero-content {
  background: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay*/
@@ -481,27 +480,45 @@ footer-li {
   background-size: cover;
   background-position: center;
 }
-.products .container, 
-.products .row {
+/* shop section */
+* Reset */
+.shop {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background: url(.../img/fd.computer.png) no-repeat ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.shop.container, 
+.shop .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.shop.container, 
+.shop .row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.products .content {
+.shop .content {
     max-width: 500px;
     padding: 20px;
     background: rgba(255,255,255,0.8);
     border-radius: 10px;
 }
-.products h3 {
+.shop h3 {
     font-size: 28px;
     color: #222;
 }
-.products span {
+.shop span {
     font-size: 18px;
     color: #777;
 }
-.products p {
+.shop p {
     margin: 15px 0;
     color: #333;
 }
