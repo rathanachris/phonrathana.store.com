@@ -114,17 +114,17 @@ header .fa-bars{
       desplay: block;
   } 
 }
-header .navbar{
+.header .navbar{
   position:absolute;
   top:100%; left:0; right:0;
   background:#eee;
   border-top: 1rem solid rgba(0,0,0,.1);
   clip-path: polygon (00, 100% 0, 100% 0,00);
 }
-header #toggler:checked ~.navbar{
+.header #toggler:checked ~.navbar{
  clip-path: polygon (00, 100% 0, 100% 0,00);
 }
-header .navbar a{
+.header .navbar a{
   margin:1.5rem;
   padding:1.5rem;
   background:#fff;
@@ -693,11 +693,11 @@ footer-li {
   background-position: center;
 }
  .reviews-section {
-      max-width: 1000px;
-      margin: 50px auto;
-      padding: 20px;
-    }
-    h1 {
+   max-width: 1000px;
+   margin: 50px auto;
+   padding: 20px;
+}
+ h1 {
       text-align: center;
       color: #2c3e50;
       margin-bottom: 40px;
