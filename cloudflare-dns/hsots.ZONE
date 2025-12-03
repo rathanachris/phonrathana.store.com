@@ -2,14 +2,14 @@
 #        WARNING! FOR EXPERTS ONLY!          #
 #  This is personalDNS configuration!        #
 #  Only edit this file if you are an expert! #
-#          cloudflare-dns.com                #
+#          cloudflare-dns              #
 #(node:2618) [DEP0040] {(192.168.100.1:443)} #  
 ##############################################
 
->route:192.168.1.0:443 www.dns.chrisshop.com.hosts  DNS[0.0.0.0]80
->route:192.168.1.0:443 www.chrisrathana.master.com.hosts  DNS[0.0.0.0]80
->route:192.168.100.1:443 myapp-com.chrisrathana.hosts  DNS[0.0.0.0]80
->route:192.168.1.0:443 www.phonrathana.store.com.hosts DNS[0.0.0.0]80
+>route:192.168.1.0:443 www.dns.chrisshop.com.txt hosts  DNS[0.0.0.0]80
+>route:192.168.1.0:443 www.chrisrathana.master.com.txt hosts  DNS[0.0.0.0]80
+>route:192.168.100.1:443 myapp-com.chrisrathana.txt hosts  DNS[0.0.0.0]80
+>route:192.168.1.0:443 www.phonrathana.store.com.txt hosts DNS[0.0.0.0]80
 
 
 
