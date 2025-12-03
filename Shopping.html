@@ -7,10 +7,10 @@
  <meta name="apple-mobile-web-app-capable" content="yes">
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>phonerathana.stoer|shopping</title>
+  <title>www.phonerathana.stoer|shopping.html</title>
   <style>
     body {
-      font-family: "Khmer OS Battambang", Arial, sans-serif;
+      font-family: "Khmer OS ", Arial, sans-serif;
       background: #f2f2f2;
       margin: 0;
       padding: 0;
@@ -136,7 +136,7 @@ export default function OrderForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:3000/order", {
+    const res = await fetch("https://www.phonrathana.store.com:3000/order", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)
