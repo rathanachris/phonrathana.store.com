@@ -11,11 +11,11 @@
     <lastmod>2025-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+ 
   </url>
-
-  <!-- Products page -->
+<!-- shop page -->
   <url>
-    <local>https://www.phonrathana.stoer.com/products</local>
+    <local>https://www.phonrathana.stoer.com/shop.htmp</local>
     <lastmod>2025-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -23,7 +23,23 @@
 
   <!-- About page -->
   <url>
-    <local>https://www.phonrathana.stoer.com/about</local>
+    <local>https://www.phonrathana.stoer.com/about.html</local>
+    <lastmod>2025-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+              
+  <!-- Products page -->
+  <url>
+    <local>https://www.phonrathana.stoer.com/product.html</local>
+    <lastmod>2025-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <local>https://www.phonrathana.stoer.com/about.html</local>
     <lastmod>2025-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +47,7 @@
 
   <!-- Contact page -->
   <url>
-    <local>https://www.phonrathana.stoer.com/contact</local>
+    <local>https://www.phonrathana.stoer.com/contact.html</local>
     <lastmod>2025-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
