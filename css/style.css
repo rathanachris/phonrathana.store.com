@@ -168,7 +168,7 @@ header .fa-bars{
 }
 @media (max-width: 435px){
    html{
-      font-size: 20%;
+      font-size: 25%;
      }
    .heading{
       font-size: 3rem;
@@ -644,6 +644,9 @@ footer-li {
       }
       h1 { font-size: 2rem; }
       h2 { font-size: 1.7rem; }
+      }
+      .contact{
+         display: flex;
     }
 }
 .top{
