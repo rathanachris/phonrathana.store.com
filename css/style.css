@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Khmer&family=Poppins:wght@300;400;500;600&display=swap');
 @root{
  -- margin:0; padding:0;
  -- box-sizing: border-box;
@@ -500,29 +501,11 @@ footer-li {
   background-size: cover;
   background-position: center;
 }
-   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #f5f5f5;
-      padding: 40px 20px;
-    }
-
-  .shop {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
  .box-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 25px;
-    }
-
+ }
 .box {
       background: #fff;
       border-radius: 15px;
@@ -530,13 +513,11 @@ footer-li {
       box-shadow: 0 5px 15px rgba(0,0,0,0.08);
       transition: all 0.3s ease;
       position: relative;
-    }
-
+ }
  .box:hover {
       transform: translateY(-10px);
       box-shadow: 0 20px 30px rgba(0,0,0,0.15);
     }
-
  .discount {
       position: absolute;
       top: 15px;
@@ -548,13 +529,11 @@ footer-li {
       font-size: 14px;
       font-weight: bold;
       z-index: 10;
-    }
-
+ }
   .image {
       position: relative;
       overflow: hidden;
-    }
-
+ }
   .image img {
       width: 100%;
       height: 250px;
@@ -562,41 +541,41 @@ footer-li {
       transition: 0.4s;
     }
 
-   .box:hover .image img {
+ .box:hover .image img {
       transform: scale(1.1);
     }
-   .icons {
-      position: absolute;
-      bottom: -60px;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.7);
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 18px 0;
-      transition: 0.4s ease;
-    }
-    .box:hover .icons {
-      bottom: 0;
-    }
-   .icons a {
-    color: white;
-    font-size: 20px;
-    width: 45px;
-    height: 45px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
+ .icons {
+   position: absolute;
+   bottom: -60px;
+   left: 0;
+   right: 0;
+   background: rgba(0,0,0,0.7);
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 18px 0;
+   transition: 0.4s ease;
+ }
+  .box:hover .icons {
+   bottom: 0;
+ }
+ .icons a {
+  color: white;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
  }
  .icons a:hover {
     background: #ff6c5ce7;
     transform: translateY(-5px);
  }
-    /* ===== Button Add to Cart ស្អាតបំផុត ===== */
+ /* ===== Button Add to Cart ស្អាតបំផុត ===== */
  .cart-btn {
  display: flex;
  align-items: center;
@@ -608,37 +587,37 @@ footer-li {
  text-transform: uppercase;
  letter-spacing: 1px;
  padding: 14px 28px;
-      border-radius: 50px;
-      font-size: 15px;
-      transition: all 0.4s ease;
-      box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
-      margin: 15px auto;
-      width: fit-content;
-      text-decoration: none !important;
-    }
-  .cart-btn i {
-      font-size: 18px;
+ border-radius: 50px;
+ font-size: 15px;
+ transition: all 0.4s ease;
+ box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
+ margin: 15px auto;
+ width: fit-content;
+ text-decoration: none !important;
+}
+.cart-btn i {
+   font-size: 18px;
       transition: 0.3s;
-    }
-  .cart-btn:hover {
-      background: linear-gradient(45deg, #5f4fd6, #8c7be8);
-      transform: translateY(-4px) scale(1.05);
-      box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
  }
-    .cart-btn:hover i {
-      transform: translateX(5px);
+.cart-btn:hover {
+   background: linear-gradient(45deg, #5f4fd6, #8c7be8);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
  }
-    .cart-btn:active {
-      transform: translateY(0) scale(0.98);
-    }
+ .cart-btn:hover i {
+ transform: translateX(5px);
+ }
+ .cart-btn:active {
+  transform: translateY(0) scale(0.98);
+ }
  .content {
-      padding: 20px;
-      text-align: center;
+   padding: 20px;
+   text-align: center;
  }
  .content h3 {
-      font-size: 22px;
-      margin-bottom: 10px;
-      color: #333;
+   font-size: 22px;
+   margin-bottom: 10px;
+   color: #333;
  }
  .price {
    font-size: 24px;
@@ -653,27 +632,27 @@ footer-li {
    font-weight: normal;
  }
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #ff4d4d;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
 }
 /* product grid */
 .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 20px;
+ padding: 20px;
 }
 .box {
-    background: #fff;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
-    position: relative;
+ background: #fff;
+ border-radius: 10px;
+ padding: 15px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ text-align: center;
+ position: relative;
 }
 .discount {
     position: absolute;
@@ -1061,5 +1040,4 @@ footer {
  margin-top: -10px;
  color: #727982;
  @import url('https://fonts.googleapis.com/css2?family=Khmer&family=Poppins:wght@300;400;500;600&display=swap');
- }
 }
