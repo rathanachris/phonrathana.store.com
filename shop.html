@@ -10,33 +10,31 @@
 <title>www.phonrathana.stoer|shop.html</title>
 <link rel="icon" href="img/chrisrathana.2.jpg">
 <!-- font awesome cdn link -->
-<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- custom css file link -->
+<link rel="stylesheet" href="css/style.css">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
+<body>
+ <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Poppins', sans-serif;
       background: #f5f5f5;
       padding: 40px 20px;
     }
-
     .shop {
       max-width: 1200px;
       margin: 0 auto;
     }
-
     .box-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 25px;
     }
-
     .box {
       background: #fff;
       border-radius: 15px;
@@ -50,7 +48,6 @@
       transform: translateY(-10px);
       box-shadow: 0 20px 30px rgba(0,0,0,0.15);
     }
-
     .discount {
       position: absolute;
       top: 15px;
@@ -63,23 +60,19 @@
       font-weight: bold;
       z-index: 10;
     }
-
     .image {
       position: relative;
       overflow: hidden;
     }
-
     .image img {
       width: 100%;
       height: 250px;
       object-fit: cover;
       transition: 0.4s;
     }
-
     .box:hover .image img {
       transform: scale(1.1);
     }
-
     .icons {
       position: absolute;
       bottom: -60px;
@@ -92,11 +85,9 @@
       padding: 18px 0;
       transition: 0.4s ease;
     }
-
     .box:hover .icons {
       bottom: 0;
     }
-
     .icons a {
       color: white;
       font-size: 20px;
@@ -109,12 +100,10 @@
       justify-content: center;
       transition: 0.3s;
     }
-
     .icons a:hover {
       background: #ff6c5ce7;
       transform: translateY(-5px);
     }
-
     /* ===== Button Add to Cart ស្អាតបំផុត ===== */
     .cart-btn {
       display: flex;
@@ -135,43 +124,35 @@
       width: fit-content;
       text-decoration: none !important;
     }
-
     .cart-btn i {
       font-size: 18px;
       transition: 0.3s;
     }
-
     .cart-btn:hover {
       background: linear-gradient(45deg, #5f4fd6, #8c7be8);
       transform: translateY(-4px) scale(1.05);
       box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
     }
-
     .cart-btn:hover i {
       transform: translateX(5px);
     }
-
     .cart-btn:active {
       transform: translateY(0) scale(0.98);
     }
-
     .content {
       padding: 20px;
       text-align: center;
     }
-
     .content h3 {
       font-size: 22px;
       margin-bottom: 10px;
       color: #333;
     }
-
     .price {
       font-size: 24px;
       font-weight: bold;
       color: #6c5ce7;
     }
-
     .price span {
       color: #999;
       text-decoration: line-through;
