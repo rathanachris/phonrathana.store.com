@@ -512,18 +512,18 @@ footer-li {
       padding: 40px 20px;
     }
 
-    .shop {
+  .shop {
       max-width: 1200px;
       margin: 0 auto;
     }
 
-    .box-container {
+ .box-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 25px;
     }
 
-    .box {
+.box {
       background: #fff;
       border-radius: 15px;
       overflow: hidden;
@@ -532,12 +532,12 @@ footer-li {
       position: relative;
     }
 
-    .box:hover {
+ .box:hover {
       transform: translateY(-10px);
       box-shadow: 0 20px 30px rgba(0,0,0,0.15);
     }
 
-    .discount {
+ .discount {
       position: absolute;
       top: 15px;
       left: 15px;
@@ -550,23 +550,22 @@ footer-li {
       z-index: 10;
     }
 
-    .image {
+  .image {
       position: relative;
       overflow: hidden;
     }
 
-    .image img {
+  .image img {
       width: 100%;
       height: 250px;
       object-fit: cover;
       transition: 0.4s;
     }
 
-    .box:hover .image img {
+   .box:hover .image img {
       transform: scale(1.1);
     }
-
-    .icons {
+   .icons {
       position: absolute;
       bottom: -60px;
       left: 0;
@@ -578,41 +577,37 @@ footer-li {
       padding: 18px 0;
       transition: 0.4s ease;
     }
-
     .box:hover .icons {
       bottom: 0;
     }
-
-    .icons a {
-      color: white;
-      font-size: 20px;
-      width: 45px;
-      height: 45px;
-      background: rgba(255,255,255,0.15);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: 0.3s;
-    }
-
-    .icons a:hover {
-      background: #ff6c5ce7;
-      transform: translateY(-5px);
-    }
-
+   .icons a {
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+ }
+ .icons a:hover {
+    background: #ff6c5ce7;
+    transform: translateY(-5px);
+ }
     /* ===== Button Add to Cart ស្អាតបំផុត ===== */
-    .cart-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: linear-gradient(45deg, #6c5ce7, #a29bfe);
-      color: white !important;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      padding: 14px 28px;
+ .cart-btn {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 8px;
+ background: linear-gradient(45deg, #6c5ce7, #a29bfe);
+ color: white !important;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ padding: 14px 28px;
       border-radius: 50px;
       font-size: 15px;
       transition: all 0.4s ease;
@@ -621,32 +616,26 @@ footer-li {
       width: fit-content;
       text-decoration: none !important;
     }
-
   .cart-btn i {
       font-size: 18px;
       transition: 0.3s;
     }
-
   .cart-btn:hover {
       background: linear-gradient(45deg, #5f4fd6, #8c7be8);
       transform: translateY(-4px) scale(1.05);
       box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
-    }
-
+ }
     .cart-btn:hover i {
       transform: translateX(5px);
-    }
-
+ }
     .cart-btn:active {
       transform: translateY(0) scale(0.98);
     }
-
-    .content {
+ .content {
       padding: 20px;
       text-align: center;
-    }
-
-    .content h3 {
+ }
+ .content h3 {
       font-size: 22px;
       margin-bottom: 10px;
       color: #333;
