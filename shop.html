@@ -14,21 +14,16 @@
 <!-- custom css file link -->
 <link rel="stylesheet" href="css/style.css">
  <style>
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
 body {
  font-family: 'Poppins', sans-serif;
  background: #f5f5f5;
  padding: 40px 20px;
 }
-.shop {
+shop {
   max-width: 1200px;
   margin: 0 auto;
 }
- section {
+section {
   font-size: 2rem 9%;
 }
 header {
@@ -39,25 +34,21 @@ header {
   align-items: center;
   justify-content: space-between; /* Logo ⇆ Navbar ⇆ Icons */
 }
-
 header .navbar {
   display: flex;
   gap: 20px;
 }
-
 header .icons {
   display: flex;
   align-items: center;
   gap: 20px;       /*ចន្លោះរវាង icons*/
   margin-left: auto;
 }
-
 header .icons a {
   font-size: 2rem;
   color: #333;
   transition: 0.3s;
 }
-
 header .icons a:hover {
   color: #6c5ce7;
   transform: translateY(-3px);
@@ -161,10 +152,10 @@ header .icons a:hover {
       padding: 18px 0;
       transition: 0.4s ease;
     }
-    .box:hover .icons {
+  .box:hover .icons {
       bottom: 0;
     }
-    .icons a {
+  .icons a {
       color: white;
       font-size: 20px;
       width: 45px;
