@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const urls = [
- "https://www.chrisrthana.master.com/home", "https://www.chrisrthana.master.com/about", "https://www.chrisrthana.master.com/products" "https://www.chrisrthana.master.com/review", "https://www.chrisrthana.master.com/contact",
+ "https://www.chrisrthana.stoer.com/home", "https://www.chrisrthana.stoer.com/about", "https://www.chrisrthana.stoer.com/products" "https://www.chrisrthana.stoer.com/review", "https://www.chrisrthana.stoer.com/contact",
 ];
 const today = new Date().toISOString().split("T")[0];
 
