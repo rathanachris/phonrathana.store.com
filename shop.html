@@ -16,26 +16,86 @@
 <head>
 <body>
  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #f5f5f5;
-      padding: 40px 20px;
-    }
-    .shop {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .box-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
-    .box {
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: 'Poppins', sans-serif;
+ background: #f5f5f5;
+ padding: 40px 20px;
+}
+.shop {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* header logo */
+header .logo{
+  font-size: 3rem;
+  color:#131470;
+}
+header .navdar a{
+  font-size: 3rem;
+  padding:0.1.5rem;
+  color:#666; 
+}
+/* header .navdar icons */
+header .icons a{
+  font-size: 4rem;
+  color: #333;
+  margin-left: 2.4rem;
+}
+/* header .input */
+header #toggler{
+  display: none;
+}
+header .fa-bars{
+  font-size: 2rem;
+  color: #333;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1.4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/* media queries A */
+@media (max-width: 991px){
+  header .far-bars{
+   font-size: 50%;
+ }
+   header{
+     padding: 2rem;
+    } 
+ }
+@media (max-width: 768px){
+   header .far-bars{
+      desplay: block;
+  } 
+}
+.header .navbar{
+  position:absolute;
+  top:100%; left:0; right:0;
+  background:#eee;
+  border-top: 1rem solid rgba(0,0,0,.1);
+  clip-path: polygon (00, 100% 0, 100% 0,00);
+}
+.header #toggler:checked ~.navbar{
+ clip-path: polygon (00, 100% 0, 100% 0,00);
+}
+.header .navbar a{
+  margin:1.5rem;
+  padding:1.5rem;
+  background:#fff;
+  border:.1rem solid rgba(0,0,0,.1);
+  display: block;
+  height: 0px;
+}
+ .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 25px;
+}
+.box {
       background: #fff;
       border-radius: 15px;
       overflow: hidden;
@@ -43,8 +103,10 @@
       transition: all 0.3s ease;
       position: relative;
     }
-     @media (max-width: 768px) {
+     @media (max-width: 433px) {
      html {
+         font-size: 50%;
+      }
         grid-template-columns: 1fr;
       }
       h1 { font-size: 2rem; }
@@ -129,7 +191,7 @@
       transition: 0.3s;
     }
     .cart-btn:hover {
-      background: linear-gradient(45deg, #5f4fd6, #8c7be8);
+      background: linear-gradient(45deg, 5f4fd6, 8c7be8);
       transform: translateY(-4px) scale(1.05);
       box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
     }
