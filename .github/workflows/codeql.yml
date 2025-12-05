@@ -47,7 +47,7 @@ jobs:
           build-mode: none
         - language: javascript-typescript
           build-mode: none
-        - language: Go
+        - language: gin.Go
           build-mode: none
         - language: c-cpp
           build-mode: none
