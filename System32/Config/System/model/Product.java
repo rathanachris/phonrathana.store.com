@@ -1,36 +1,16 @@
-@Service
-public class ProductService {
+public class Product {
 
-    private final List<Product> products = new ArrayList<>();
+    private Long id;
+    private String name;
+    private double price;
 
-    public List<Product> getProducts() {
-        return products;
+    public Product() {}
+
+    public Product(Long id, String name, double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
     }
 
-    public Product getProductById(Long id) {
-        return products.stream()
-                .filter(p -> p.getId().equals(id))
-                .findFirst()
-                .orElse(null);
-    }
-
-    public Product addProduct(Product product) {
-        products.add(product);
-        return product;
-    }
-
-    public Product updateProduct(Long id, Product product) {
-        for (Product p : products) {
-            if (p.getId().equals(id)) {
-                p.setName(product.getName());
-                p.setPrice(product.getPrice());
-                return p;
-            }
-        }
-        return null;
-    }
-
-    public void deleteProduct(Long id) {
-        products.removeIf(p -> p.getId().equals(id));
-    }
+    // getters & setters
 }
