@@ -14,212 +14,179 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
 <!-- custom css file link -->
 <style>
+/* Body / container */
 body {
- font-family: 'Poppins', sans-serif;
- background: #f5f5f5;
- padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f6fb;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 30px 16px;
 }
-html {
-  max-width: 100px;
+/* Shop wrapper */
+.shop {
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 8px;
 }
-section {
-  font-size: 2rem 9%;
-}
-header {
-  width: 100%;
-  padding: 15px 20px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Logo ⇆ Navbar ⇆ Icons */
-}
-header .navbar {
-  display: flex;
-  gap: 20px;
-}
-header .icons {
-  display: flex;
-  align-items: center;
-  gap: 20px;       /*ចន្លោះរវាង icons*/
-  margin-left: auto;
-}
-header .icons a {
-  font-size: 2rem;
-  color: #333;
-  transition: 0.3s;
-}
-header .icons a:hover {
-  color: #6c5ce7;
-  transform: translateY(-3px);
-}
-.header .navbar{
-  position:absolute;
-  top:100%; left:0; right:0;
-  background:#eee;
-  border-top: 1rem solid rgba(0,0,0,.1);
-  clip-path: polygon (00, 100% 0, 100% 0,00);
-}
-.header #toggler:checked ~.navbar{
- clip-path: polygon (00, 100% 0, 100% 0,00);
-}
-.header .navbar a{
-  margin:1.5rem;
-  padding:1.5rem;
-  background:#fff;
-  border:.1rem solid rgba(0,0,0,.1);
-  display: block;
-  height: 0px;
-}
-/* @media queries A */
-@media (max-width: 991px){
-  header .far-bars{
-   font-size: 25%;
- }
-   header{
-     padding: 2rem;
-    } 
- }
-@media (max-width: 768px){
-   header .far-bars{
-      desplay: block;
-  } 
-}
+/* Grid layout for boxes */
 .box-container {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-   gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 22px;
+  align-items: stretch;
 }
+/* Card */
 .box {
-  background: #fff;
-  border-radius: 15px;
+  background: #ffffff;
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
   position: relative;
+  box-shadow: 0 6px 18px rgba(18, 24, 40, 0.06);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  display: flex;
+  flex-direction: column;
 }
-@media (max-width: 433px) {
-     html {
-         font-size: 25%;
-      }
-        grid-template-columns: 1fr;
-      }
-      h1 { font-size: 2rem; }
-      h2 { font-size: 1.7rem; }
-      }
-      .box:hover {
-         display: flex;
-      }
-    }
-    .box:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 30px rgba(0,0,0,0.15);
-    }
-    .discount {
-      position: absolute;
-      top: 15px;
-      left: 15px;
-      background: #ff4757;
-      color: white;
-      padding: 5px 12px;
-      border-radius: 30px;
-      font-size: 14px;
-      font-weight: bold;
-      z-index: 10;
-  }
-  .image {
-      position: relative;
-      overflow: hidden;
-   }
-  .image img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      transition: 0.4s;
-  }
-  .box:hover .image img {
-      transform: scale(1.1);
-  }
-  .icons p {
-      position: absolute;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.7);
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 18px 0;
-      transition: 0.4s ease;
-    }
-  .box:hover .icons {
-      bottom: 0;
-   }
-  .icons a {
-      color: white;
-      font-size: 20px;
-      width: 45px;
-      height: 45px;
-      background: rgba(255,255,255,0.15);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: 0.3s;
-  }
-  .icons a:hover {
-      background: #ff6c5ce7;
-      transform: translateY(-5px);
-  }
-    /* ===== Button Add to Cart ស្អាតបំផុត ===== */
-  .cart-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: linear-gradient(45deg, #6c5ce7, #a29bfe);
-      color: white !important;
-      font-weight: 600;
-  }
-  .cart-btn i {
-      font-size: 18px;
-      transition: 0.3s;
-    }
-  .cart-btn:hover {
-      background: linear-gradient(45deg, #5f4fd6, $8c7be8);
-      transform: translateY(-4px) scale(1.05);
-      box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5);
-    }
-  .cart-btn:hover i {
-      transform: translateX(5px);
-    }
-    .cart-btn:active {
-      transform: translateY(0) scale(0.98);
-    }
-    .content {
-      padding: 20px;
-      text-align: center;
-    }
-    .content h3 {
-      font-size: 22px;
-      margin-bottom: 10px;
-      color: #333;
-    }
-    .price {
-      font-size: 24px;
-      font-weight: bold;
-      color: #6c5ce7;
-    }
-    .price span {
-      color: #999;
-      text-decoration: line-through;
-      font-size: 16px;
-      margin-left: 8px;
-      font-weight: normal;
-    }
-  </style>
-</head>
-<body>
-<!-- អាចបន្ថែម .box ផ្សេងទៀតបានដូចខាងលើ -->
+/* Hover lift */
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(18,24,40,0.12);
+}
+/* Discount badge */
+.discount {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: linear-gradient(135deg, #ff6363, #ff3b7a);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 6;
+  box-shadow: 0 6px 14px rgba(99, 46, 74, 0.12);
+}
+/* Image area */
+.box .image {
+  position: relative;
+  width: 100%;
+  padding-top: 66.66%; /* 3:2 ratio */
+  overflow: hidden;
+  background: #f7f8fb;
+}
+/* Actual img */
+.box .image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 350ms ease;
+}
+/* Icons overlay */
+.box .image .icons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 8;
+  transform: translateY(8px);
+  opacity: 0;
+  transition: all 220ms ease;
+}
+/* Each icon style */
+.box .image .icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.95);
+  color: #333;
+  text-decoration: none;
+  box-shadow: 0 6px 14px rgba(18,24,40,0.06);
+  font-size: 0.95rem;
+  padding: 0 10px;
+  transition: transform 180ms ease, background 180ms ease, color 180ms ease;
+}
+/* Icon hover */
+.box .image .icons a:hover {
+  transform: translateY(-4px);
+  background: #131470;
+  color: #fff;
+}
+/* Show icons and zoom image on hover */
+.box:hover .image .icons {
+  transform: translateY(0);
+  opacity: 1;
+}
+.box:hover .image img {
+  transform: scale(1.06);
+}
+/* Content area */
+.box .content {
+  padding: 14px 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 auto;
+}
+/* Title */
+.box .content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #101028;
+  line-height: 1.2;
+}
+/* Price row */
+.price {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: #131470;
+  font-size: 1rem;
+}
+/* Old price */
+.price span {
+  font-weight: 500;
+  color: #9aa0b2;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+/* Cart button styling when you want it inline (if using <a class="cart-btn">) */
+.cart-btn {
+  display: inline-block;
+  background: #131470;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  box-shadow: 0 8px 20px rgba(19,20,112,0.12);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+/* If cart-btn used inside .icons, make it match icon style */
+.image .icons .cart-btn {
+  min-width: auto;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+/* Cart hover */
+.cart-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(19,20,112,0.14); }
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .box-container { gap: 14px; }
+  .discount { font-size: 0.82rem; padding: 5px 8px; top: 10px; left: 10px; }
+  .box .content { padding: 12px; }
+  .image { padding-top: 72%; } /* taller on small screens */
+}
 <!--header section start -->    
 <header>
       
