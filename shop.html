@@ -43,7 +43,17 @@
       transition: all 0.3s ease;
       position: relative;
     }
-
+     @media (max-width: 768px) {
+     .cart-btn:hover {
+        grid-template-columns: 1fr;
+      }
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.7rem; }
+      }
+      .shop {
+         display: flex;
+    }
+   }
     .box:hover {
       transform: translateY(-10px);
       box-shadow: 0 20px 30px rgba(0,0,0,0.15);
