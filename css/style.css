@@ -4,9 +4,9 @@
  -- box-sizing: border-box;
  -- font-family: sans-serif;
  -- outline: none; border:none;
- -- text-decoration: none;
- -- text-transform: capitalize;
- -- transition: 2s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
 --url('https://www.phonrathana.stoer.com/Library/target');
 }
 section{
@@ -496,7 +496,7 @@ footer-li {
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background: url(.../img/fd.computer.png) no-repeat ;
+  background: url(.../img/fd.computer) no-repeat ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -530,7 +530,7 @@ footer-li {
       font-size: 2.5rem;
       position: relative;
     }
-    h1::after {
+ h1::after {
       content: '';
       width: 80px;
       height: 4px;
@@ -541,7 +541,7 @@ footer-li {
       transform: translateX(-50%);
       border-radius: 2px;
     }
-    h2 {
+  h2 {
       text-align: center;
       color: #2c3e50;
       margin: 60px 0 30px;
