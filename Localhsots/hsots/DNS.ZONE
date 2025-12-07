@@ -12,7 +12,7 @@ $TTL 300
 @       IN      NS      ns1.phonrathana.stoer.com.txt
 @       IN      NS      ns2.phonrathana.stoer.com.txt
 
-; A Records.   IP public 
+; A Records.   IP public asia-km-12
 @                           IN  A   192.168.100.1
 https                       IN  A   58.97.216.140
 *phonrathana.stoer.com.txt  IN  A   58.97.216.140
