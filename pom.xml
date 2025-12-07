@@ -23,10 +23,10 @@
 
     <!-- Project Info -->
     <groupId>com.stoer.phonrathana</groupId>
-    <artifactId>myapp</artifactId>
+    <artifactId>my.app</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>chris rathana Backend</name>
+    <name>phon.rathana</name>
     <description>Spring Boot backend for phonrathana.store.WebApp</description>
 
     <!-- Java version -->
