@@ -11,7 +11,7 @@
 section {
   padding:2rem 9%;
 }
-.button{
+.button {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
@@ -239,16 +239,6 @@ a.fas.fa-user {
   color: white;
   border-radius: 25px;
   border: none;
-  cursor: pointer;
-}
-.mic-btn {
-  position: absolute;
-  right: 90px;
-  top: 10%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 22px;
   cursor: pointer;
 }
 /* Hero Section with Background Image */
