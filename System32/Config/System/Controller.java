@@ -4,7 +4,7 @@ import javax.print.attribute.standard.MediaSize.Other;
 import org.springframework.webapk.bind.annotation.*;
 
 @RestController
-@RequestMapping("https://api")
+@RequestMapping("https://api.phonrathana.soter.com")
 public class OrderController {
 
 // GET
