@@ -90,7 +90,7 @@ required></textarea>
 <div id="map"></div>
 <!-- iframe Google JS -->
 <center>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1S2HGaM56UiWQVAoaLWpAPv7Rd2AYMBs&e hbc=2E312F" width="340px" height="450px"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1S2HGaM56UiWQVAoaLWpAPv7Rd2AYMBs&e hbc=2E312F" width="340px" height="440px"></iframe>
 </center>
 <!-- ifrme Google-demo end -->
 </script>
@@ -124,30 +124,30 @@ $(document).ready(function(){
 });
 </script>
 <script>
-    // Create map and set center [Latitude, Longitude] and zoom level
+// Create map and set center [Latitude, Longitude] and zoom level
     var map = L.map('map').setView([11.5225, 104.8865], 13); // Phnom Penh
 
-    // Add OpenStreetMap tiles
+// Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 5,
       attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    // Add a marker
-    var marker = L.marker([11.5225, 104.8865]).addTo(map);
-    marker.bindPopup("<h1>Hello.World</b>chris.rathana<br>Phnom Penh.</h1>").openPopup();
+// Add a marker
+var marker = L.marker([11.5225, 104.8865]).addTo(map);
+marker.bindPopup("<h1>Hello.World</b>chris.rathana<br>Phnom Penh.</h1>").openPopup();
 </script>
   <script>
 // Assuming you have the user's email, phone number, and address stored in these variables
 var userEmail = "rathanechris239@gmail.com";
  // Replace with actual
  variable storing email
-   var userPhoneNumber =
+var userPhoneNumber =
 "885+011 485 951"; // Replace with actual variable storing phone number
-   var userAddress = {
-   "city": "Phnom Penh", //
-   Replace with actual city
-   "country": "Cambodia" //Replace with actual country
+var userAddress = {
+"city": "Phnom Penh", 
+Replace with actual city
+"country": "Cambodia" //Replace with actual country
 };
 
 gtag('set', 'user_data', {
