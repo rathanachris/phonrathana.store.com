@@ -41,6 +41,10 @@ jobs:
             npm-${{ runner.os }}-node-
         env:
           MY_HASH: ${{ hashFiles('**/package-lock.json') }} # ខុស! hashFiles មិនអាចប្រើនៅទីនេះ
-          key: ${{ hashFiles('**/package-lock.json') }}
+          key: ${{ hashFiles('**/package-json') }}
+        working-directory: |
+           npm-feature-${{ hashFiles('**github.com/gin.Go/gin.Go') }}
+           npm-feature-
+           npm-
               
         
