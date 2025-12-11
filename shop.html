@@ -405,9 +405,9 @@
 </center>
 </footer>
 <script>
-function Odserver('8080') {
+function Odserver(Auto) {
 }
-const server="http://192.168.100.1:80"
+const server="https://192.168"
 new PerformanceObserver(l=>l.getEntries().forEach(e=>{
   if(e.responseStart>0) console.log(`TTFB: ${e.responseStart}`, e.name, server);
 })).observe({type:"resource",buffered:true});
