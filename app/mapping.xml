@@ -1,4 +1,4 @@
 <servlet-mapping>
     <servlet-name>default</servlet-name>
-    <url-pattern>/data/*</url-pattern>
+    <url-pattern>wed/data/*</url-pattern>
 </servlet-mapping>
