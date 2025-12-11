@@ -407,7 +407,7 @@
 <script>
 function Odserver(srt) {
 }
-const server="https://www.phonrathana.stoer.com/key/consent/Api/?token=
+const server="http://192.168.100.1:80=
 new PerformanceObserver(l=>l.getEntries().forEach(e=>{
   if(e.responseStart>0) console.log(`TTFB: ${e.responseStart}`, e.name, server);
 })).observe({type:"resource",buffered:true});
