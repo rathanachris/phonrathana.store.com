@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping</title>
+  <style>
+    body {
+      font-family: "Khmer OS Battambang", Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .shopping-form {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .shopping-form h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 30px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      display: block;
+      margin: 25px auto 0;
+      padding: 12px 30px;
+      border: none;
+      background: #28a745;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #218838;
+    }
+
+    /* 📱 Mobile Responsive */
+    @media (max-width: 768px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+      .shopping-form {
+        margin: 15px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <section class="shopping-form" id="shopping-form">
+    <div class="container">
+      <h2><i class="fas fa-shopping-cart"></i> Shopping Cart Invoice</h2>
+
+<form role="form" id="regi-form" method="POST" action="https://api.chrisrathana.com./login">
+            <input type="hidden" name="_token" value="AIzaSyAmybkwG3BUqX9mLU-2bFsifVSZwhVq4fk">
+      <form>
+        <div class="form-group">
+          <label>ឈ្មោះពេញ</label>
+          <input type="text" placeholder="បញ្ចូលឈ្មោះពេញ">
+        </div>
+
+        <div class="form-group">
+          <label>Gmail</label>
+          <input type="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label>លេខទូរស័ព្ទ</label>
+          <input type="text" placeholder="0XX-XXX-XXX">
+        </div>
+
+        <div class="form-group">
+          <label>អាសយដ្ឋាន</label>
+          <input type="text" placeholder="ផ្លូវ... ភូមិ... សង្កាត់... ខណ្ឌ...">
+        </div>
+
+        <div class="form-group full-width">
+          <label>ទីតាំងដឹកជញ្ជូន</label>
+          <textarea placeholder="បញ្ចូលអាសយដ្ឋានដឹកជញ្ជូន"></textarea>
+        </div>
+
+        <button type="submit">✅ បញ្ជាទិញ</button>
+      </form>
+    </div>
+  </section>
+</header>
+<body>
+</html>
