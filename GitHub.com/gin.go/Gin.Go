@@ -1,6 +1,6 @@
 package com.stoer.phonrathana_main.AI.Gemini service 
 import (
-    "net/https"
+    "net/http"
     "github.com/gin-gonic/gin"
 )
 func main() {
