@@ -27,7 +27,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>phon.rathana</name>
-    <description>Spring Boot backend for phonrathana.store.WebApp</description>
+    <description>Spring Boot backend for phonrathana.store.com.WebApp</description>
 
     <!-- Java version -->
     <properties>
