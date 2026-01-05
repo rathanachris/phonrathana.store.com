@@ -1,0 +1,24 @@
+##############################################
+#        WARNING! FOR EXPERTS ONLY!          #
+#  This is personalDNS configuration!        #
+#  Only edit this file if you are an expert! #
+#            Google.clud                     #
+#(node:2618) [DEP0040] {(192.168.2.1:443)}   #  
+##############################################
+DNS
+>router:"ip": "34.142.129.92"
+
+"hostname": "92.129.142.34.bc.googleusercontent.com",
+>address ip;142.129.92:443 n1.www.dns.chrisshop.com.txt hosts  DNS[0.0.0.0]80
+>address ip:34.142.129.92:443 n2.www.chrisrathana.master.com.txt hosts  DNS[0.0.0.0]80
+>address ip:34.142.129.92:443 n1.myapp-com.chrisrathana.txt hosts  DNS[0.0.0.0]80
+>address ip:34.142.129.92:443 n2.www.phonrathana.store.com.txt hosts DNS[0.0.0.0]80
+
+
+
+
+
+
+
+
+
