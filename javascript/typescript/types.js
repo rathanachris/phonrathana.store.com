@@ -3,7 +3,7 @@ import { SocksClient, SocksClientOptions } from 'socks';
 async function main() {
   const options: SocksClientOptions = {
     proxy: {
-      ipaddress: '192.168.2.1', // Proxy IP
+      ipaddress: '192.168.1.100', // Proxy IP
       port: 8080,               // Proxy Port
       type: 5,                  // SOCKS5
     },
@@ -28,14 +28,14 @@ async function main() {
     ].join('\r\n');
 
     // ផ្ញើ Request
-    info.socket.write(httpRequest);
+    info.sock.write(httpRequest);
 
     // ទទួល Data
-    info.socket.on('data', (data) => {
+    info.sock.on('data', (data) => {
       console.log('📦 Response Data:\n', data.toString());
     });
 
-    info.socket.on('end', () => {
+    info.sock.on('end', () => {
       console.log('🔌 Connection closed');
     });
 
