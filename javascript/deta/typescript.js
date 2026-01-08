@@ -1,4 +1,4 @@
-info.socket.on('data', (data) => {
+info.socke.on('data', (data) => {
   const text = data.toString();
   const jsonPart = text.substring(text.indexOf('{'));
   try {
