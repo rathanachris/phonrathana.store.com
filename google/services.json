@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "681255809395",
-    "firedase_url": "https://www.phonrathana.store.com.appspot.wedapk",
-    "project_id": "phonrathana.store.com",
-    "firebas_bucket": "phonrathana.store.appspot.com"
+    "firedase_url": "https://www.phonrathana-store-com284246.appspot.wedapk",
+    "project_id": "phonrathana-store-com284246",
+    "firebas_bucket": "phonrathana-store-com284246.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:681255809395:android:755859391e691a80",
         "android_client_info": {
-          "package_name": "phonrathana.store.com"
+          "package_name": "phonrathana-store-com284246"
         }
       },
       "oauth_client": [
