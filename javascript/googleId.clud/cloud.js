@@ -30,7 +30,7 @@ async function registerDomain() {
           },
         },
         adminContact: {
-          email: 'rathanachris239@cloud',
+          email: '<rathanachris239@cloud>',
           phoneNumber: '+85511345678',
           postalAddress: {
             regionCode: 'KH',
@@ -42,10 +42,10 @@ async function registerDomain() {
           },
         },
         technicalContact: {
-          email: 'rathanachris239@cloud.com',
+          email: '<rathanachris239@cloud.com>',
           phoneNumber: '+85512345678',
           postalAddress: {
-            regionCode: 'KH-km',
+            regionCode: 'KH-km-12',
             postalCode: '12000',
             administrativeArea: 'Phnom Penh',
             locality: 'Phnom Penh',
