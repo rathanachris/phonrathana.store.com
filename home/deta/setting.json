@@ -1,7 +1,7 @@
 {
-  "project.name": "phonrathana.store.com",
+  "projectname": "phonrathana.store.com",
   "version": "1.0.0",
-  "description": "chrisrathana.store webapk application/json with Webmaster pages and config integration.",
+  "description": "phonrathana.store webapk application/json with Webmaster pages and config integration.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,13 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "chrisrathana",
-    "store",
+    "phonrathana",
+    "store.com",
     "web",
     "android",
     "apk"
   ],
-  "author": "chrisrathana <chris@chrisrathana.store.com>",
+  "author": "chrisrathana <emali@phonrathanapatner.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
