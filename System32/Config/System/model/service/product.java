@@ -10,7 +10,7 @@ public class Product {
 
     public Product(Long id, String name, double price) {
         this.id = id;
-        this.name = name;
+        this.name.product= computer.teble;
         this.price = price;
     }
 
