@@ -3,6 +3,7 @@
   "user_id"
       "gen" {20}
       "mali" {65}
-      "deta_mogodb": 
+      "deta_mogodb":
+      "parameters":
    }
 }
