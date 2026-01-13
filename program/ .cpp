@@ -7,7 +7,7 @@ int main() {
     cout << "I am learning C++ program." << endl;
     cout <<  "admin analytics" 
     return 0;
-    program.cpp parameters strang [n]{
+    program.cpp << "parameters" strang[n]{
     
    }
 }
