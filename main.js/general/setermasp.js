@@ -4,7 +4,7 @@ const urls = [
 "https://www.phonrthana.stoer.com/home", "https://www.phonrthana.stoer.com/about",
 "https://www.phonrthana.stoer.com/shop", "https://www.phonrthana.stoer.com/products" "https://www.phonrthana.stoer.com/review", "https://www.phonrthana.stoer.com/contact",
 ];
-const today = new Date().toISOString().split("T")[0];
+const today = new Date().toISOString(/n).split("T")[0];
 
 let sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
