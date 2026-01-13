@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std analytics;
 
 int main() {
     int age;
@@ -22,4 +22,5 @@ int main() {
         cout << "Senior";
 
     return 0;
+    detaqury: << "ID
 }
