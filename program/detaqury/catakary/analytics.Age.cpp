@@ -1,4 +1,4 @@
-#include <iostream>
+$include <iostream>
 using namespace std analytics;
 
 int main() {
@@ -21,6 +21,6 @@ int main() {
     else
         cout << "Senior";
 
-    return 0;
-    detaqury: << "ID
+     return 0;
+    "detaquery": << "ID:1759431564052";
 }
