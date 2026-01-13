@@ -5,9 +5,9 @@
   --header "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
   --json '{
     "type": "CNAME",
-    "name": "www.phonrathana.store.com-32066",
-    "content": "anther-callback-www.phonrathana.stoer.com-32066",
+    "name": "ns1.www.phonrathana.stoer.com.284246.txt",
+    "content": "anther-callback-n2www.phonrathana.stoer.com.284246.txt",
     "ttl": 3600,
     "proxied": false
-  }'
-  
+   }'
+  }
