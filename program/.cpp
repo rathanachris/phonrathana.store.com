@@ -36,6 +36,6 @@ void LogSelectContentEvent(
         analytics::LogEvent(
         analytics::kEventSelectContent,(catakary)
         kSelect.Content.Parameters,(n)
-        sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[])
+        sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[n])
     );
 }
