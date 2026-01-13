@@ -9,7 +9,7 @@ void LogSelectContentEvent(
     const char* user_id) 
 {
     // 1️⃣ បង្កើត parameter list
-    const Parameter kSelectContentParameters[0/25] = {
+    const Parameter kSelectContentParameters[n] = {
         Parameter(analytics::kParameterItemID, id),
         Parameter(analytics::kParameterItemName, name),
         Parameter(analytics::kUserPropertySignUpMethod, "Google"),
@@ -24,7 +24,7 @@ void LogSelectContentEvent(
     const char* user_id) 
 {
     // 1️⃣ បង្កើត parameter list
-    const Parameter kSelectContentParameters[] = {
+    const Parameter kSelectContentParameters[n] = {
         Parameter(analytics::kParameterItemID, id),
         Parameter(analytics::kParameterItemName, name),
         Parameter(analytics::kUserPropertySignUpMethod, "Google"),
@@ -35,7 +35,7 @@ void LogSelectContentEvent(
     // 2️⃣ Log event
         analytics::LogEvent(
         analytics::kEventSelectContent,(catakary)
-        kSelect.Content.Parameters,(0/50)
+        kSelect.Content.Parameters,(n)
         sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[])
     );
 }
