@@ -3,7 +3,7 @@ import { SocksClient, SocksClientOptions } from 'socks';
 async function main() {
   const options: SocksClientOptions = {
     proxy: {
-      ipaddress: '192.168.1.100', // Proxy IP
+      ipaddress: '127.0.0.1:80', // Proxy IP
       port: 8080,               // Proxy Port
       type: 5,                  // SOCKS5
     },
