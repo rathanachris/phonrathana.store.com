@@ -409,11 +409,10 @@ const payload = {
   // non_personalized_ads: true,   // ឧទាហរណ៍បើចង់
   // user_id: data.userId || undefined
 };
-
+</script>
 logFunc('Pushing to dataLayer:', payload);
-
 dataLayerPush(payload);
-
+<script>
 // បញ្ចប់ tag ឲ្យ GTM ដឹងថាជោគជ័យ
 data.gtmOnSuccess();
 </script>
