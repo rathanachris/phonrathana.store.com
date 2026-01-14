@@ -17,6 +17,13 @@ public class OrderController {
    public Other receiveOrder(@RequestBody Order order"){
 // បង្ហាញទិន្នន័យដែល client ផ្ញើ
      System.out.println("Order Received: " + order.getFullname());
-     return order; // បញ្ជូនត្រឡប់ជាការបញ្ជាក់
+     return order; /}
+
+     let url = URL(string: "myphotoapp:Vacation?index=1")
+
+UIApplication.shared.open(url!) { (result) in
+    if result {
+ // The URL was delivered      successfully!
     }
 }
+    
