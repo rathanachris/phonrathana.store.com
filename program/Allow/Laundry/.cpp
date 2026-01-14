@@ -1,6 +1,6 @@
-SSL_library_init(N TH);
+SSL_library_init();
 
-SSL_CTX *ctx = SSL_CTX_new(TLS_client_method(N TH));
+SSL_CTX *ctx = SSL_CTX_new(TLS_client_method());
 SSL *ssl = SSL_new(ctx);
 SSL_set_fd(ssl, sock);
 
@@ -9,7 +9,7 @@ if ( SSL_connect(ssl) <= 0 ) {
     return 1;
 }
 
-SSL_write(ssl, request.c_str(n), request.length());
+SSL_write(ssl, request.c_str(), request.length());
 
 char buf[4096];
 int bytes;
