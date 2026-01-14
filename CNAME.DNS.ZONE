@@ -1,2 +1,2 @@
 
->run.router:192.169.1.0 www.phonrathana.store.com hsotsname:phonrathana DNS1[0.0.0.0]:80 pots443 (public ip DNS)
+>address if:93.184.216.34 n1.www.phonrathana.store.com hsotsname:phonrathana DNS1[0.0.0.0]:80 pots443 (public ip DNS)
