@@ -29,13 +29,13 @@ void LogSelectContentEvent(
         Parameter(analytics::kParameterItemName, name),
         Parameter(analytics::kUserPropertySignUpMethod, "Google"),
         Parameter(analytics_tecnology, "favorite_tecnology"),
-        Parameter("user_id", user_id)
+        Parameter("user_id", deta API key")
     };
 
     // 2️⃣ Log event
         analytics::LogEvent(
         analytics::kEventSelectContent,(catagary)
-        kSelect.Content.Parameters,(n){})
-        sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[]{})
+        kSelect.Content.Parameters,(N TH){})
+        sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[]{N TH})
     );
 }
