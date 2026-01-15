@@ -1,0 +1,4 @@
+var x = __cmp('consentStatus');
+if (x.consentExists) {
+  // send consent status to backend
+}
