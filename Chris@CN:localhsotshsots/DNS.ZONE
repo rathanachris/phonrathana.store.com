@@ -1,3 +1,9 @@
+######################################
+#          connect network            #
+#            subdomanin.              #
+#.         (public IP DNS).           #
+#            GitHub help              #           #.                                    #
+#######################################
 DNS
 
 $TTL 300
