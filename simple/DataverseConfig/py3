@@ -1,0 +1,22 @@
+from dataclasses import dataclass
+from typing import Any, Dict, Iterable, List, Optional
+
+
+@dataclass
+class DataverseConfig:
+    language_code: int = 1033
+    http_retries: Optional[int] = None
+    http_backoff: Optional[float] = None
+    http_timeout: Optional[float] = None
+
+    @classmethod
+    def from_env(cls) -> "DataverseConfig":
+        """
+        Create configuration instance using environment defaults
+        """
+        return cls(
+            language_code=1033,
+            http_retries=3,
+            http_backoff=0.5,
+            http_timeout=30.0
+        )
