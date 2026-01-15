@@ -1,5 +1,5 @@
 {
-      "Status": 0,
-      "Question": [{"name": "www.phonrathana.sore/dus_query", "type": 1}],
-      "Answer": [{"name": "www.phonrathana.sore/dus.query.", "type": 1, "TTL": 3599, "data": "93.184.216.34"}]
+  "Status": 0,
+  "Question": [{"name": "www.phonrathana.store.com/dus_query", "type": 1}],
+      "Answer": [{"name": "www.phonrathana.sotre.com/dus.query.", "type": 1, "TTL": 3599, "data": "93.184.216.34"}]
 }
