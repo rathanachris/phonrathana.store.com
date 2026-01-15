@@ -296,7 +296,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script type="text/JavaScript='https://www.phonrathana.stoer.com/home/manifest.json/css/css.style'></script>
 <script>
-function showreview('page'){
+const log = require('logToConsole');
+const sendPixel = require('sendPixel');
+const makeString = require('makeString');
+const getTimestampMillis = require('getTimestampMillis');
+
+const measurementId = data.measurementId; // ឧ. G-XXXXXXX
+const apiSecret = data.apiSecret;         // ត្រូវបញ្ចូល api_secret ពី GA4 admin
+
+if (!measurementId || !apiSecret) {
+  log('Missing measurementId or apiSecret!');
+  data.gtmOnFailure();
+  return;
+}
+
+const clientId = data.clientId || '123456789.987654321'; // cookie  generate
+const eventName = data.eventName || 'custom_event_from_template';
+
+const url = 'https://www.google-analytics.com/mp/collect' +
+  '?measurement_id=' + makeString(measurementId) +
+  '&api_secret=' + makeString(apiSecret);
+
+const payload = {
+  client_id: clientId,
+  events: [{
+    name: eventName,
+    params: {
+      event_category: data.eventCategory || 'custom',
+      event_label: data.eventLabel || 'test',
+      value: Number(data.value) || 1,
+      timestamp_micros: getTimestampMillis() * 1000,
+      // បន្ថែម params ផ្សេងទៀត
+    }
+  }]
+};
+
+log('Sending Measurement Protocol:', payload);
+
+sendPixel(url, JSON.stringify(payload), data.gtmOnSuccess, data.gtmOnFailure);
+</script>
+<script>
+function showreview(page){
 }
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
        document.write(unescape("%7Cscript src='" + gaJsHost + "google-analytics.com/gt.j type='text/javascript'%3E%3C/script%3E")
@@ -449,7 +489,7 @@ const state = Math.random().toString(36).substring(n)
 {
   "@context": "https://schema.org/",
    "name": "phon.nrathana",
-   "author": "Evan.You' <https://www.Curl.se>",
+   "author": "Evan.You' <Email@phonrathanapartner.com>",
    "selling": "Ezecom.co.ltd",
    "as_info": {
    "as_number": "131178do",
