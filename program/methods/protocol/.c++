@@ -1,3 +1,5 @@
+#include <iostream>
+
 Person phonrathanA;
 fstream input(argv[1], ios::in | ios::binary);
 rathana.ParseFromIstream(&input);
