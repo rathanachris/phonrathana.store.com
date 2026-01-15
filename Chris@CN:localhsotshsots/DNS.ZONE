@@ -14,12 +14,12 @@ $TTL 300
 
 ; A Records.   IP public asia-km-12
 @                                   IN  A   58.97.216.140
-*https                              IN  A   192.168.100.1
+*url:https                          IN  A192.168.100.1
 *phonrathana.stoer.com.txt   IN  A   58.97.216.140
 *www                                IN  A   192.168.100.1
 
 ; CNAME
-www         IN   CNAME   www.phonrathana.stoer.com.txt
+www         IN   CNAME url https www.phonrathana.stoer.com.txt
 
 ; Email (optional)
 @           IN  MX 10   mx.phonrathana.stoer.com.txt
