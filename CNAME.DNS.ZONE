@@ -1,2 +1,4 @@
 
->address if:93.184.216.34 n1.www.phonrathana.store.com hsotsname:phonrathana DNS1[0.0.0.0]:80 pots443 (public ip DNS)
+>router ip:192.162.2.1:443
+n1.www.phonrathana.store.com.txt
+n2.www.phonrathana.store.com.txt hsotsname:[phonrathana] DNS1[8.8.8.8]:80 DNS2[8.0.0.8] pots8080 update pots443 (public ip DNS)
