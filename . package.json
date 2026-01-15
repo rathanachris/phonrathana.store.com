@@ -1,11 +1,11 @@
 {
-    "projectname": "phonrathana.store.com",
+    "name": "phonrathana.store.com",
     "version": "1.0.0",
     "description": "A simple e-commerce project for phonrathana.store.com",
     "main": "index.js",
     "scripts": {
      "start": "node index.js",
-     "dev": "nodemon index.js",
+     "dev": "nodedemon index.js",
      "test": "echo \"Error: no test specified\" && exit 1"
      "service": 'httpss://cloudresourcemanager.googleapis.com/v3/{name=PROJECT_phonrathana.store.com}:POST";
      "destinationParent": "DESTINATION_PARENT",
@@ -16,7 +16,7 @@
     "license": "ISC",
     "repository": {
      "type": "git",
-     "url": "git@github.com:rathanachris/phonrathana.store.com.git"
+     "url": "https://github.com/rathanachris/phonrathana.store.com.git"
  },
     "dependencies": {
     "debug": "^4.4.1"
