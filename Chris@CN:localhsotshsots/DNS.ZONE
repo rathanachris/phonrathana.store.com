@@ -15,8 +15,8 @@ $TTL 300
                         300 )      ; Negative Cache TTL
 
 ; Nameservers
-@       IN      NS      ns1.phonrathana.stoer.com.txt
-@       IN      NS      ns2.phonrathana.stoer.com.txt
+@       IN      NS      ns1.phonrathana.stoer.com.txt (ns1.cloudflare.com) [1.1.1.1]:443
+@       IN      NS      ns2.phonrathana.stoer.com.txt (ns2.cloudflare.com) [1.0.0.1]:443
 
 ; A Records.   IP public asia-km-12
 @                                   IN  A   58.97.216.140
