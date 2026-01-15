@@ -1,6 +1,6 @@
 package phonrathana.store.com.model;
 
-public class Product {
+@public class Product {
 
     private Long id;
     private String name;
@@ -9,7 +9,8 @@ public class Product {
     public Product() {}
 
     public Product(Long id, String name, double price) {
-        this.id = id;
+        system_id(Auto2);
+        this.id = Auto machine id;
         this.name.product= computer.teble;
         this.price = price;
     }
