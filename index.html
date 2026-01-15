@@ -309,14 +309,11 @@ if (!measurementId || !apiSecret) {
   data.gtmOnFailure();
   return;
 }
-
 const clientId = data.clientId || '123456789.987654321'; // cookie  generate
 const eventName = data.eventName || 'custom_event_from_template';
-
 const url = 'https://www.google-analytics.com/mp/collect' +
   '?measurement_id=' + makeString(measurementId) +
   '&api_secret=' + makeString(apiSecret);
-
 const payload = {
   client_id: clientId,
   events: [{
@@ -330,9 +327,7 @@ const payload = {
     }
   }]
 };
-
 log('Sending Measurement Protocol:', payload);
-
 sendPixel(url, JSON.stringify(payload), data.gtmOnSuccess, data.gtmOnFailure);
 </script>
 <script>
@@ -341,6 +336,29 @@ function showreview(page){
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
        document.write(unescape("%7Cscript src='" + gaJsHost + "google-analytics.com/gt.j type='text/javascript'%3E%3C/script%3E")
     );
+ </script>
+ <script>
+  // Initialize dataLayer
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+
+  /* Default consent for specific regions (EU / GDPR) */
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    regions: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR',
+              'HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK',
+              'SI','ES','SE']
+  });
+  /* Default consent for all other regions */
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied'
+  });
 </script>
  <script type="text/JavaScript">
           try {
