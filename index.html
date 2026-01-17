@@ -405,6 +405,46 @@ gtag('config', 'G-R0BPT1TP36');
  </div>
 </center>
 </footer>
+<script async src="https://www.googletagmanager.com/gtag/js?id="GT-NS49ZH28"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+// change Tag ID yourme
+  const TAG_ID = 'G-R0BPT1TP36';
+// លក្ខខណ្ឌសម្រាប់អ្នកប្រើប្រាស់
+const userIsSignedIn = true;     // exeacpl ត្រូវប្រើ logic ពិតប្រាកដពី system របស់អ្នក
+  const userIsSignedOut = false;   // ឧទាហរណ៍
+  const userId = 'USER_    ';     // ID ពិតពី database ឬ token
+  if (userIsSignedIn) {
+// កំណត់ user_id នៅក្នុង GA4
+    gtag('config', TAG_ID, {
+      'user_id': userId
+    });
+// ផ្ញើព្រឹត្តិការណ៍ login
+   gtag('event', 'login', {
+   method: 'email' // ឬ 'google', 'facebook' តាមប្រព័ន្ធអ្នកប្រើប្រាស់
+    });
+    console.log('User signed in:', userId);
+  } else if (userIsSignedOut) {
+ // ដក user_id ចេញ
+    gtag('config', TAG_ID, {
+      'user_id': null
+    });
+ // Send event  logout
+    gtag('event', 'logout', {
+      reason: 'user_initiated' // អាចប្តូរតាមតម្រូវការ
+    });
+    console.log('User signed out');
+  } else {
+ // ប្រសិនបើមិនទាន់ sign-in ឬ sign-out
+    gtag('event', 'session_start', {
+      page_title: document.title,
+      page_location: window.location:km-12.href
+    });
+    console.log('Session started');
+  }
+</script>
 <script src="https://registry.npmjs.org/dns/-/dns-0.2.2.tgz","integrity": "sha512-dhCgBk0QglzySl2BVlIkRuk7aTqxlCe+5KhHEX5ULuco7RcB6d1zDnP5iGSs2rLdJaTc+82MxegtJtjFuueWiQ==",crossorigin='anonymous'>
  <head>
 <script  Sending user data to gtag
