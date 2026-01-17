@@ -9,7 +9,7 @@ package phonrathana.store.com.model;
     public Product() {}
 
     public Product(Long id, String name, double price) {
-        system_id(Auto2);
+        system_id();
         this.id = Auto machine id;
         this.name.product= computer.teble;
         this.price = price;
