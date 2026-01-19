@@ -1,4 +1,28 @@
 
->router ip:192.162.2.1:443
-n1.www.phonrathana.store.com.txt
-n2.www.phonrathana.store.com.txt hsotsname:[phonrathana] DNS1[8.8.8.8]:80 DNS2[8.0.0.8] pots8080 update pots443 (public ip DNS)
+$ dig www.phonrathana.store.com.txt
+
+nostats nocomments + nocmd
+
+www.phonrathana.store.com.txt IN A. CNAME.
+
+YOUR-hotsname.phonrathana www.phonrathana.store.com.txt 3000 IN CNAME
+
+YOUR-USERNAME.github.io.
+
+YOUR-USERNAME.github.io.
+
+43192 IN
+
+CNAME
+
+22
+
+IN
+
+A
+
+GITHUB-PAGES-SERVER
+
+GITHUB-PAGES-SERVER.
+
+192.0.2.1
