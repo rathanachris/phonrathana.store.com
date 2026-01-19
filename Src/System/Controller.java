@@ -1,4 +1,4 @@
-package com.phonrathana.demo;
+package com.stoer.phonrathana.demo;
 
 import javax.print.attribute.standard.MediaSize.Other;
 import org.springframework.webapk.bind.annotation.*;
