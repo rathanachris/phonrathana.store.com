@@ -1,6 +1,6 @@
 ######################################
 #          connect network            #
-#            subdomanin               #
+#            subd.omanin              #
 #.         (public IP DNS)            #
 #            GitHub help.             #
 # publickey-hostbound@openssh.com=<0> #                      
@@ -8,7 +8,7 @@
 DNS
 
 $TTL 300
-@       IN   AAAA   SOA     ns1.www.phonrathana.stoer.com.txt adminemlie@phonrathanapatner.com (
+@       IN   AAAA   SOA  hsotsname "phonrathana"  ns1.www.phonrathana.stoer.com.txt adminemlie@phonrathanapatner.com (
                         2025011501 ; Serial
                         3600       ; Refresh
                         1800       ; Retry
@@ -20,10 +20,10 @@ $TTL 300
 @       IN      NS      ns2.phonrathana.stoer.com.txt ns2.cloudflare.com [1.0.0.1]:443
 
 ; A Records.   IP public asia-km-12
-@                                   IN  A   58.97.216.140
-*url:https                          IN  A   192.168.100.1
+@https                              IN  A   58.97.216.140
+*url                                IN  A   58.97.216.140
 *phonrathana.stoer.com.txt          IN  A   58.97.216.140
-*www                                IN  A   192.168.100.1
+*www                                IN  A   58.97.216.140
 
 ; CNAME
 www         IN   CNAME url https www.phonrathana.stoer.com.txt
