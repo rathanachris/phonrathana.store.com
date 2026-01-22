@@ -18,7 +18,7 @@ async function registerDomain() {
       contactSettings: {
         privacy: 'PRIVATE_CONTACT_DATA',
         registrantContact: {
-          email: 'rathanachris239@cloud',
+          email: 'rathanachris239@cloud.com',
           phoneNumber: '+85512345678',
           postalAddress: {
             regionCode: 'KH',
@@ -30,7 +30,7 @@ async function registerDomain() {
           },
         },
         adminContact: {
-          email: '<rathanachris239@cloud>',
+          email: '<rathanachris239@cloud.com>',
           phoneNumber: '+85511345678',
           postalAddress: {
             regionCode: 'KH',
