@@ -2,7 +2,7 @@
    "table": "table_name",
     "mockStartIndex": "auto",
     "nockCount": 10,
-    "nockValueReference":   "https://mockjs.com/stoer.com.html#OPO",
+    "nockValueReference":   "https://mockjs.com/phonrathana.stoer.com.html#OPO",
   "mock": {
   "create tine": {
    "type": "datetime",
