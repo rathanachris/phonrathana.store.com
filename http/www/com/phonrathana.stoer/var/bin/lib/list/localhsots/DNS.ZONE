@@ -26,7 +26,7 @@ $TTL 300
 *www                                IN  A   58.97.216.140
 
 ; CNAME
-www         IN   CNAME url https www.phonrathana.stoer.com.txt
+www         IN   CNAME url www.phonrathana.stoer.com.txt
 
 ; Email (optional)
 @           IN  MX 10   mx.phonrathana.stoer.com.txt
