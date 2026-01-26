@@ -31,18 +31,20 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - language: go
-            build-mode: none
+          - language: go 
+            Autobuild-mode: none
           - language: python
-            build-mode: none
-          - language: javascript-typescript
-            build-mode: none
+            Autobuild-mode: none
+          - language: javascript-typescript 
+            Autobuild-mode: none
           - language: cpp
-            build-mode: none
-          - language: java-kotlin
-            build-mode: none
+            Autobuil-dmode: none
+          - language: java-kotlin 
+            Autobuil-dmode: none
 
-    steps:
+      # បញ្ជាក់ភាសាទាំងអស់ដែលអ្នកចង់ Scan
+        language: [ 'go', 'python', 'cpp', 'java-kotlin', 'javascript-typescript' ]
+    steps:      
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -72,13 +74,13 @@ jobs:
         uses: github/codeql-action/init@v3   # ប្រើ v3 ឬ v2 ដែលទាន់សម័យបំផុត (v3 ល្អជាង v5 ដែលមិនទាន់មាននៅឆ្នាំ 2025)
         with:
           languages: ${{ matrix.language }}
-          build-mode: ${{ matrix.build-mode }}
+          build-mode: ${{ matrix.Autobuild-mode }}
           # queries: security-extended          # បើចង់បន្ថែម queries បន្ថែម (បើប្រើ config file អាចលុប)
 
       # បើ project របស់អ្នកជា compiled language (cpp, java-kotlin, go) ហើយ autobuild មិនដំណើរការ
       # អ្នកអាចប្តូរ build-mode: manual រួចបន្ថែម build command នៅទីនេះ
       - name: Autobuild (optional - remove if using manual build)
-        if: matrix.build-mode != 'none'
+        if: matrix.Autobuild-mode != 'none'
         uses: github/codeql-action/autobuild@v3
 
       # បើចង់ប្រើ manual build សម្រាប់ភាសាណាមួយ ប្តូរ if condition និងដាក់ command ពិតប្រាកដ
@@ -93,3 +95,4 @@ jobs:
         uses: github/codeql-action/analyze@v3
         with:
           category: "/language:${{ matrix.language }}"
+        
