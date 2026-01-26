@@ -13,9 +13,9 @@ services:
 
   db:
     image: mysql:8
-    container_name: christathana.stoer.com_sql_db
+    container_name: www.phontathana.stoer.com_sql_db
     environment:
-      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_ROOT_PASSWORD: root@phonrathana.s.pass
       MYSQL_DATABASE: phonrathana.stoer.com_db
       MYSQL_USER: christathana_user
       MYSQL_PASSWORD: secret.
