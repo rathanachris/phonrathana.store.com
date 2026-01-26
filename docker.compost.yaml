@@ -15,9 +15,9 @@ services:
     image: mysql:8
     container_name: christathana.com_sql_db
     environment:
-      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_ROOT_PASSWORD: root@phonrathana.s.pass
       MYSQL_DATABASE: phonrathana.stoe.com.db
-      MYSQL_USER: christathana_user
+      MYSQL_USER: phontathana_user
       MYSQL_PASSWORD: secret....
     ports:
       - "3306:3306"
