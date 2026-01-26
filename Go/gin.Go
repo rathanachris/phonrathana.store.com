@@ -1,7 +1,7 @@
-package com.stoer.phonrathana_main.AI.Gemini service 
+package com.stoer.phonrathana_main.
 import (
     "net/http"
-    "github.com/gin-gonic/gin"
+    "github.com/gin-gonic/Go"
 )
 func main() {
     r := gin.Default()
