@@ -1,8 +1,7 @@
 {
   "name": "phonrathana.store.com",
   "version": "1.0.0",
-  "description": "phonrathana.store
- webapk application/json with Webmaster pages and config integration",
+  "description": "pages and config integration",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
