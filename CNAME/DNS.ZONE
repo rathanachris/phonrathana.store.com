@@ -10,10 +10,11 @@
 DNS
 >router: "34.142.129.92"
 $ dig 'hostnamé' "phonrathana" Cline "92.129.142.34.bc.googleusercontent.com",
-> www.phonrathana.stodr.com. A. CNAME.  YOUR-hotsname.phonrathana.stoer.com.txt
-> www.phonrathana.stodr.com. A. 3000  IN CNAME. YOUR-USERNAME.github.io.
+> www.phonrathana.stoer.com. A. CNAME.  YOUR-hotsname.phonrathana.stoer.com.txt
+> www.phonrathana.stoer.com. A. 3000  IN CNAME. YOUR-USERNAME.github.io.
 > YOUR-USERNAME.github.io.   A  43192 IN CNAME  GITHUB-PAGES-SERVER.
 > GITHUB-PAGES-SERVER.       A. 22.   IN CNAME  92.129.142.34
+
 
 
 
