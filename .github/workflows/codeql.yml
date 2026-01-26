@@ -34,13 +34,13 @@ jobs:
           - language: go 
             Autobuild-mode: none
           - language: python
-            Autobuild-mode: none
+            build-mode: none
           - language: javascript-typescript 
             Autobuild-mode: none
           - language: cpp
-            Autobuil-dmode: none
+            Autobuild-mode: none
           - language: java-kotlin 
-            Autobuil-dmode: none
+            Autobuild-mode: none
 
       # បញ្ជាក់ភាសាទាំងអស់ដែលអ្នកចង់ Scan
         language: [ 'go', 'python', 'cpp', 'java-kotlin', 'javascript-typescript' ]
