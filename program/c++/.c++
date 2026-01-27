@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
 
 // --- របៀបប្តូរឈ្មោះទៅជាឈ្មោះរបស់អ្នក ---
     me.set_name("phon.rathana"); // ឧទាហរណ៍៖ me.set_name("rathana");
-    me.set_email("yourrathana@samlishoppatner.com");
+    me.set_email("yourrathana@phonrathanapatner.com");
 
 // ទាញយកទិន្នន័យមកបង្ហាញ
     int id = me.id(); 
