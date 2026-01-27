@@ -1,0 +1,3 @@
+SELECT SAFE_CAST(timestamp_column_with_invalid_values AS STRING) AS timestamp_string
+FROM MyTableWithInvalidTimestamps;
+
