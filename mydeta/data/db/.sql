@@ -1,0 +1,4 @@
+dbSQL
+SELECT timestamp_column_with_invalid_values
+FROM MyTableWithInvalidTimestamps;
+
