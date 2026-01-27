@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/powershell:7.5
+FROM mcr.microsoft.com/powershell:7.5.4
 
 # Install PowerShell Universal module
 RUN pwsh -Command \
