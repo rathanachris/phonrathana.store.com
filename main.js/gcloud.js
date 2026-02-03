@@ -5,7 +5,7 @@ async function registerDomain() {
 
   // 1. Check if the domain is free.
   const [searchResponse] = await client.searchDomains({
-    query: 'www.phonrathana.soter.com',
+    query: 'https://www.phonrathana.soter.com',
     location: 'projectsid/_ID_/locations/global',
   });
   console.log('Search result:', searchResponse.registerParameters);
@@ -14,11 +14,11 @@ async function registerDomain() {
   const request = {
     parent: 'projectsid/_ID_/locations/global',
     registration: {
-      domainName: 'https://www.phonrathana.soter.com',
+      domainName: 'www.phonrathana.soter.com',
       contactSettings: {
         privacy: 'PRIVATE_CONTACT_DATA',
         registrantContact: {
-          email: 'rathanachris239@cloud',
+          email: 'rathanachris239@cloud.com',
           phoneNumber: '+85512345678',
           postalAddress: {
             regionCode: 'KH',
