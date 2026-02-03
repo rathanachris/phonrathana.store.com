@@ -1,7 +1,7 @@
 package com.stoer.phonrathana_main.
 import (
-    "net/http"
-    "github.com/gin-gonic/Go"
+    "net/https"
+    "gin-gonic/Go"
 )
 func main() {
     r := gin.Default()
