@@ -1,6 +1,6 @@
 import requests
 
-url = "https://www.dns.chrisshop.com/domain"
+url = "https://www.phonrathana.stoer.com/domain"
 output_file = "hosts_filter.txt"
 
 try:
