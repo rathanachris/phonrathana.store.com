@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <iomanip> // សម្រាប់ setw() ធ្វើតារាងស្អាត
+#include <person.pb.h>  // សម្រាប់ setw() ធ្វើតារាងស្អាត
 using namespace std;
 
 int main() {
