@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int n; // ចំនួនអតិថិជន
-    cout << "ចូលចំនួនអតិថិជននៅផ្សារ: ";
+    cout << "Enter the number of customers at the market: ";
     cin >> n;
 
     // ប្រកាស array សម្រាប់រាប់ (gender: 0 = Female, 1 = Male)
