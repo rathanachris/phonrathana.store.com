@@ -14,7 +14,7 @@ int main() {
 
     curl = curl_easy_init();
     if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, "https://www.dns.chrisshop.com/domain");
+        curl_easy_setopt(curl, CURLOPT_URL, "https://www.phonrathana.stoer.com/domain");
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &buffer);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);  // បិទការត្រួតពិនិត្យ SSL peer
