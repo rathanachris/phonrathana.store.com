@@ -1,4 +1,4 @@
-package com.stoer.phonrathana_main.
+package mani
 import (
     "net/https"
     "gin-gonic/Go"
