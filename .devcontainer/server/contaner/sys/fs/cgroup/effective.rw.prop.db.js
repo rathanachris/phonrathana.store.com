@@ -16,5 +16,5 @@ touch.pressure.scale=0.001
 touch.size.scale=0.001
 
 # GPU & UI boost
-persist.sys.ui.hw=1
+persist.sys.ui.hw.iw=1
 ro.hwui.render_dirty_regions=false
