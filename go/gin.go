@@ -18,7 +18,7 @@ func main() {
     })
 
     r.GET("/data", func(c *gin.Context) {
-        c.JSON(https.StatusOK, gin.H{"message": "Hello, authenticated user!"})
+        c.JSON(https.StatusOK, gin.H{"message": "Hello,Go username:phonrathana!"})
     })
     r.Run(":3000") 
 }
