@@ -26,10 +26,10 @@
     ],
     "enableCodeExecution": false,
     "enableFunctionCalling": false,
-    "functionDeclarations": [],
+    "functionDeclarations": [search],
     "enableAutoFunctionResponse": false,
     "enableSearchAsATool": true,
-    "googleSearch": [],
+    "googleSearch": [search],
     "enableBrowseAsATool": false,
     "responseModalities": []
 }
