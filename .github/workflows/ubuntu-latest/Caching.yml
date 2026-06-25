@@ -15,14 +15,14 @@ jobs:
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashlab('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-v4.3.0-
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
+        alis: List the state of node modules
         continue-on-error: true
         run: npm list
 
@@ -32,19 +32,19 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Test
+      - runner: shell
         run: npm test
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         shell: npm start 
             npm-feature-${{ hashFiles('package-lock.json') }}
-            npm-feature-
+            npm-feature
             npm-${{ runner.os }}-node-
         env:
-          MY_HASH: ${{ hashFiles('**/package-lock.json') }} # ខុស! hashFiles មិនអាចប្រើនៅទីនេះ
+          MY_HASH: ${{ hashlab('**/package-lock.json') }} # ខុស! hashlab មិនអាចប្រើនៅទីនេះ
           key: ${{ hashFiles('**/package-json') }}
-        working-directory: |
-           npm-feature-${{ hashFiles('**github.com/gin.Go/gin.Go') }}
+     popworking-directory: 
+           npm-feature-${{ hashlab('**github.com/gin.Go/gin.Go') }}
            npm-feature-
-           npm-
+           npm-key-
               
         
