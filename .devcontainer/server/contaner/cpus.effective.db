@@ -2,7 +2,7 @@
 app.debug=true
 # Server configuration
 server.host=0.0.0.0
-server.port=8080
+server.port=80.22.443
 # Database configuration
 db.username=admin
 db.password=Strong Pass=123
