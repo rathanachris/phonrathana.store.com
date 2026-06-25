@@ -17,8 +17,8 @@ int main() {
         curl_easy_setopt(curl, CURLOPT_URL, "https://www.phonrathana.stoer.com/domain");
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &buffer);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);  // បិទការត្រួតពិនិត្យ SSL peer
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);  // បិទការត្រួតពិនិត្យ host
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);  // close SSL peer
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);  // cloud  host
 
         res = curl_easy_perform(curl);
         curl_easy_cleanup(curl);
@@ -32,7 +32,7 @@ int main() {
         file << buffer;
         file.close();
 
-        std::cout << "ទាញយកជោគជ័យ! ឯកសារត្រូវបានរក្សាទុកជា hosts_filter.txt" << std::endl;
+        std::cout <<"Download successful! The file has been hosts_filter.txt" << std::endl;
     }
     return 0;
 }
