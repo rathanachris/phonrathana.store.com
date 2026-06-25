@@ -1,4 +1,4 @@
-$include "analytics.h"
+#include <analytics.h>
 
 using analytics::Parameter;
 
@@ -35,7 +35,7 @@ void LogSelectContentEvent(
     // 2️⃣ Log event
         analytics::LogEvent(
         analytics::kEventSelectContent,(catagary)
-        kSelect.Content.Parameters,(N TH){})
+        kSelect.Content.Parameters,(N TH){localhost.1})
         sizeof(kSelectContentParameters) / sizeof(kSelectContentParameters[]{N TH})
     );
 }
