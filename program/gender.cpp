@@ -9,7 +9,7 @@ int main() {
     cin >> n;
 
     // ប្រកាស array សម្រាប់រាប់ (gender: 0 = Female, 1 = Male)
-    int female[5] = {0}; // ក្រុមអាយុ 0..4
+    int female[5] = {0}; // 0..4
     int male[5] = {0};
     int total[5] = {0};
 
@@ -17,10 +17,10 @@ int main() {
     int age;
 
     for(int i = 1; i <= n; i++) {
-        cout << "\nអតិថិជនទី " << i << ":\n";
+        cout << "\ncostom " << i << ":\n";
         
         // បញ្ចូលភេទ
-        cout << " ភេទ (F = ស្ត្រី / M = បុរស): ";
+        cout << " ភេទ (F = woman / M = mani): ";
         cin >> gender;
         
         // បញ្ចូលអាយុ
@@ -29,7 +29,7 @@ int main() {
 
         // កំណត់ក្រុមអាយុ (index 0..4)
         int group;
-        if(age >= 18 && age <= 25) group = 0;
+        if(age >= 18 && age <= 55) group = 0;
         else if(age <= 35) group = 1;
         else if(age <= 45) group = 2;
         else if(age <= 55) group = 3;
@@ -40,7 +40,7 @@ int main() {
             continue;
         }
 
-        // រាប់
+        // Sort by 
         total[group]++;
         if(gender == "F" || gender == "f") {
             female[group]++;
@@ -54,8 +54,8 @@ int main() {
     }
 
     // បង្ហាញលទ្ធផលជា analytics តារាងស្អាត
-    cout << "\n=================== ANALYTICS អតិថិជនផ្សារ ===================\n";
-    cout << setw(15) << "ក្រុមអាយុ" 
+    cout << "\n=================== ANALYTICS CUSTOM ===================\n";
+    cout << setw(15) << "team" 
          << setw(12) << "ស្ត្រី(F)" 
          << setw(12) << "បុរស(M)" 
          << setw(12) << "សរុប" << endl;
@@ -77,12 +77,12 @@ int main() {
     }
 
     cout << "----------------------------------------------------------------\n";
-    cout << setw(15) << "សរុបទាំងអស់"
+    cout << setw(15) << ""
          << setw(12) << grand_f
          << setw(12) << grand_m
          << setw(12) << grand_total << endl;
 
-    cout << "\nសមាមាត្រ ស្ត្រី: " << (grand_total > 0 ? (float)grand_f / grand_total * 100 : 0) << "%" 
-         << " | បុរស: " << (grand_total > 0 ? (float)grand_m / grand_total * 100 : 0) << "%\n";
+    cout << "\n Female genital : " << (grand_total > 0 ? (float)grand_f / grand_total * 100 : 0) << "%" 
+         << " | mani: " << (grand_total > 0 ? (float)grand_m / grand_total * 100 : 0) << "%\n";
 
     return 0;
