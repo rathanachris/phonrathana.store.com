@@ -1,4 +1,4 @@
-package com.store.phonrathana.model;
+package phonrathana.stoer.con@1.0.0
 
 @public class Product {
 
