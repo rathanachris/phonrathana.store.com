@@ -2,11 +2,11 @@
 app.debug=true
 # Server configuration
 server.host=0.0.0.0
-server.port=80.22.443
+server.port=80.22.443.40
 # Database configuration
 db.username=admin
 db.password=Strong Pass=123
-db.url=jdbc:mysql://127.0.0.1:8080/mydb
+db.url=jdbc:mysql://127.0.0.1:4040/mydb
 # Logging level
 Log.Level-INFO
 # API Keys or Tokens
