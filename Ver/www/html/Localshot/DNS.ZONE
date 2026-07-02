@@ -20,13 +20,13 @@ $TTL 300
 @       IN      NS      ns2.phonrathana.stoer.com.txt ns2.cloudflare.com [1.0.0.1]:443
 
 ; A Records.   IP public asia-km-12
-@https                              IN  A   34.87.14.48
-*url                                IN  A   58.97.216.140
-*phonrathana.stoer.com.txt          IN  A   58.97.216.140
-*www                                IN  A   58.97.216.140
+@https                              IN  A   127.0.0.1
+*url                                IN  A   58.97.216.140 public 
+*phonrathana.stoer.com.txt          IN  A   192.168.1.1
+*www                                IN  A   192.168.1.1
 
 ; CNAME
-www         IN   CNAME url www.phonrathana.stoer.com.txt
+www         IN   CNAME url phonrathana.stoer.com.txt
 
 ; Email (optional)
 @           IN  MX 10   mx.phonrathana.stoer.com.txt
