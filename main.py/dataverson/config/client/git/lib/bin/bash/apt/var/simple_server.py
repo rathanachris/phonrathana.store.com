@@ -10,5 +10,5 @@ Handler = http.server.SimpleHTTPRequestHandler
 
 # Create the server
 with sockserver.TCPServer(("", PORT), Handler) as httpd:
-    print(f"✅ Server started at http://CN:localhost:8080{PORT}")
+    print(f"✅ Server started at http://CN:localhost:4040{PORT}")
     httpd.serve_forever()  # This keeps the server running
