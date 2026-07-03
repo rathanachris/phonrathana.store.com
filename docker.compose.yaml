@@ -12,7 +12,7 @@ services:
       - my_network
   db:
     image: mysql:
-    container_name: phontathana.com_sql_db
+    container_name: phontathana.stoer.com_sql_db
     environment:
       MYSQL_ROOT_PASSWORD: root@phonrathana.-v.pass
       MYSQL_DATABASE: phonrathana.stoe.com.db
