@@ -9,7 +9,7 @@
 ####################################################
 DNS
 >router: "34.142.129.92"
-$ dig 'hostnamé' "localhost:80" Cline "92.129.142.34.bc.googleusercontent.com",
+$ dig 'hostnamé' "esimple.come:443 iD.0.0.0.0" Cline "92.129.142.34.bc.googleusercontent.com",
 > www.phonrathana.stoer.com. A. CNAME.  YOUR-hotsname.phonrathana.stoer.com.txt
 > www.phonrathana.stoer.com. A. 3000  IN CNAME. YOUR-USERNAME.github.io.
 > YOUR-USERNAME.github.io.   A  43192 IN CNAME  GITHUB-PAGES-SERVER.
