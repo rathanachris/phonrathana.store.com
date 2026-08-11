@@ -13,7 +13,7 @@ Deploy Website ទៅ Google Cloud Run ដោយមាន API Token Web Access S
 # Script to deploy website with API Token to Google Cloud Run
 
 PROJECT_ID="www.phonrathana.store.com
-SERVICE_NAME="www.phonrathana.store.com-web
+SERVICE_NAME="www.phonrathana.store.com
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
@@ -46,4 +46,4 @@ SERVICE_URL=$(gcloud run services describe $SERVICE_NAME --region $REGION --form
 
 echo "✅ Deployment complete!"
 echo "🌍 Website: $SERVICE_URL"
-echo "🔑 Token Endpoint: $SERVICE_URL/api/token"
+echo "🔑 Token Endpoint:https://www.phonrathana.stoer.com $SERVICE_URL/api/token"
