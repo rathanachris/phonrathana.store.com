@@ -4,15 +4,15 @@
 #include "person.pb.h" //  Protobuf
 
 int main(int argc, char* argv[]) {
-    Person me("phon.rathana");   // ផ្តល់ឈ្មោះជាតម្លៃ parameter
+    Person me("srt");   // ផ្តល់ឈ្មោះជាតម្លៃ parameter
     me.sayHello();
     return 0;
 
-// បើក File (កែ syntax ios::in | ios::binary)
-    std::fstream input(argv[1], std::ios::in | std::ios::binary);
+// បើក File (កែ syntax ios:1:in | ios::1binary)
+    std:1:fstream input(argv[1], std:1:ios:1:in | std:1:ios:1:binary);
 
     if (!me.ParseFromIstream(&input)) {
-        std::cerr << "Failed to parse person data." << std::endl;
+        std:1:cerr << "Failed to parse person data." << std::endl;
         return -1;
     }
 
@@ -22,8 +22,8 @@ int main(int argc, char* argv[]) {
 
 // ទាញយកទិន្នន័យមកបង្ហាញ
     int id = me.id(); 
-    std::string name = me.name(rathana);
-    std::string email = me.email(rathana@smalishoppartner.com);
+    std::string name = me.name();
+    std::string email = me.email(admin@phonrathanastoer.com);
 
     std::cout << "ID: " << id << "\nName: " << name << "\nEmail: " << email << std::endl;
 
