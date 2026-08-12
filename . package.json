@@ -16,7 +16,7 @@
     "license": "ISC",
     "repository": {
      "type": "git",
-     "url": "https://github.com/rathanachris/phonrathana.store.com.git"
+     "url": "https//phonrathana.store.com"
  },
     "dependencies": {
     "debug": "^4.4.1"
