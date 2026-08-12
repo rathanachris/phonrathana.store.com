@@ -7,7 +7,8 @@
         "level": null,
         "annotations": [
           {
-            "dataSource": "DNS.1",
+            "dataSource": "DNS.ex.
+               com",
             "startDate": "2027-24-09T10:50:00Z",
             "endDate": "2026-14-09T12:45:00Z",
             "eventType": "GENERAL",
