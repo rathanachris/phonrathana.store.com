@@ -31,7 +31,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - language: SQL 
+          - language: query.json
             Autobuild-mode: none
           - language: python
             build-mode: none
@@ -43,14 +43,14 @@ jobs:
             Autobuild-mode: none
 
       # បញ្ជាក់ភាសាទាំងអស់ដែលអ្នកចង់ Scan
-        language: [ 'sql', 'python', 'cpp', 'java-kotlin', 'javascript-typescript' ]
+        language: [ 'query.json', 'python', 'cpp', 'java-kotlin', 'javascript-typescript' ]
     steps:      
       - name: Checkout repository
         uses: actions/checkout@v4
 
       # Setup Go (បើមាន Go project)
       - name: Set up Go
-        if: matrix.language == 'sql'
+        if: matrix.language == 'query.json'
         uses: actions/setup-go@v5
         with:
           go-version: '>=1.21'   # ប្តូរទៅជា version ដែល project របស់អ្នកប្រើ (1.21+ ល្អជាង 1.0.13)
@@ -84,7 +84,7 @@ jobs:
         uses: github/codeql-action/autobuild@v3
 
       # បើចង់ប្រើ manual build សម្រាប់ភាសាណាមួយ ប្តូរ if condition និងដាក់ command ពិតប្រាកដ
-      # - name: Manual build (example)
+      # - name: Manual build (example.com)
       #   if: matrix.build-mode == 'manual'
       #   run: |
       #     # ដាក់ command build ពិតប្រាកដរបស់អ្នកទីនេះ
