@@ -1,0 +1,5 @@
+fetch('https://reqres.in', {
+  headers: {
+    'x-api-key': 'YOUR_ACTUAL_API_KEY'
+  }
+});
