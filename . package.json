@@ -7,7 +7,7 @@
      "start": "node index.js",
      "dev": "nodedemon index.js",
      "test": "echo \"Error: no test specified\" && exit 1"
-     "service": 'httpss://cloudresourcemanager.googleapis.com/v3/{name=PROJECT_phonrathana.store.com}:POST";
+     "service": 'httpss://phonrathana.store.com}:POST";
      "destinationParent": "DESTINATION_PARENT",
 
  },
